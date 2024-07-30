@@ -5,37 +5,39 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+
 @Entity
-@Table
-@Getter @Setter
+@Table(name = "trail")
+@Getter
+@Setter
 @NoArgsConstructor
 public class Trail {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name= "trail_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "trail_id")
     private Long id;
 
     @Column
-    private Long appId;  //Given from API
+    private Long appId;
 
-    @Column
+    @Column(name = "trail_name")
     private String trailName;
 
-    @Column
-    private Double trailLength; //In miles?
+    @Column(name = "trail_length")
+    private Double trailLength;
 
     @Column
+    @Enumerated(EnumType.STRING)
     private Experience trailExperience;
 
     @ManyToOne
-    @JoinColumn(name="user_id")
+    @JoinColumn(name = "user_id")
     private User user;
 
-    //Constructors
     public Trail(String trailName, Double trailLength, Experience trailExperience, User user) {
         this.trailName = trailName;
         this.trailLength = trailLength;
-        this.trailExperience = trailExperience;
         this.user = user;
     }
 }

@@ -4,21 +4,21 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import static jakarta.persistence.FetchType.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table
-@Getter @Setter
+@Table(name = "app_user")
+@Getter
+@Setter
 @NoArgsConstructor
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name= "user_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private Long id;
 
-    @Column
+    @Column(name = "username")
     private String username;
 
     @Column
@@ -31,12 +31,12 @@ public class User {
     private String state;
 
     @Column
+    @Enumerated(EnumType.STRING)
     private Experience experience;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, fetch = EAGER)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
     private List<Trail> favoritedTrails = new ArrayList<>();
 
-    //Constructors
     public User(String username, String password) {
         this.username = username;
         this.password = password;
