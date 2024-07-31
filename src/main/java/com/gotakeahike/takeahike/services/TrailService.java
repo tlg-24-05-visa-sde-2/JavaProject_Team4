@@ -47,7 +47,7 @@ public class TrailService {
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
         return response;
-//        return restTemplate.getForObject(response.body() <- this is string, YOUR-DTO.class <- this makes it into a json object from your java class);
+//        return restTemplate.getForObject(response.body() <- this is stirng, YOUR-DTO.class);
     }
 
     public List<Trail> findAllTrails() throws Exception {
