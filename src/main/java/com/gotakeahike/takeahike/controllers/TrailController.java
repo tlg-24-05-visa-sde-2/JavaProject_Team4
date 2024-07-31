@@ -1,12 +1,13 @@
 package com.gotakeahike.takeahike.controllers;
 
+import com.gotakeahike.takeahike.dto.WeatherDTO;
 import com.gotakeahike.takeahike.models.Trail;
-import com.gotakeahike.takeahike.services.JwtTokenProvider;
 import com.gotakeahike.takeahike.services.TrailService;
-import com.gotakeahike.takeahike.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import reactor.core.publisher.Mono;
 
 import java.io.IOException;
 import java.net.http.HttpResponse;
@@ -21,22 +22,15 @@ import java.util.List;
 @RequestMapping("/trail")
 public class TrailController {
     private final TrailService trailService;
-    public final UserService userService;
 
-    public TrailController(TrailService trailService, UserService userService) {
+    public TrailController(TrailService trailService) {
         this.trailService = trailService;
-        this.userService = userService;
     }
 
     @PostMapping("/addTrail")
-    public ResponseEntity<String> addNewTrail(@RequestBody Trail newTrail, @RequestHeader("Authorization") String authorizationHeader) throws Exception {
+    public ResponseEntity<String> addNewTrail(@RequestBody Trail newTrail) throws Exception {
         try {
-            String jwt = authorizationHeader.replace("Bearer ", "");
-            JwtTokenProvider.validateToken(jwt);
-            Long userId = JwtTokenProvider.extractUserId(jwt);
-
-
-//            userService.saveTrailToUser(newTrail, userId);
+            trailService.addNewTrail(newTrail);
             return ResponseEntity.ok("Trail added successfully");
         } catch (Exception e) {
             throw new Exception(e.getMessage());

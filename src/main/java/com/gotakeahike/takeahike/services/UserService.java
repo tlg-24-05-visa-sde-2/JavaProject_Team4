@@ -3,6 +3,7 @@ package com.gotakeahike.takeahike.services;
 import com.gotakeahike.takeahike.Exceptions.UserExistException;
 import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
 import com.gotakeahike.takeahike.dto.LoginDTO;
+import com.gotakeahike.takeahike.dto.TrailDTO;
 import com.gotakeahike.takeahike.dto.UserDTO;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.models.User;
@@ -65,7 +66,7 @@ public class UserService {
         return userData;
     }
 
-//    public void saveTrailToUser(TrailDTO trailDTO, Long userid) {
-//
-//    }
+    public void saveTrailToUser(TrailDTO trailDTO, Long userid) {
+
+    }
 }

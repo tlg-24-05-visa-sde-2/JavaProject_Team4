@@ -1,6 +1,7 @@
 package com.gotakeahike.takeahike.repositories;
 
 import com.gotakeahike.takeahike.models.Trail;
+import com.gotakeahike.takeahike.dto.TrailDTO;
 import com.gotakeahike.takeahike.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.lang.NonNullApi;
