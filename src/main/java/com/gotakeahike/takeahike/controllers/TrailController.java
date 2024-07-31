@@ -18,7 +18,6 @@ import java.util.List;
 public class TrailController {
     private final TrailService trailService;
 
-
     public TrailController(TrailService trailService) {
         this.trailService = trailService;
     }

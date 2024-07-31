@@ -28,6 +28,7 @@ public class UserService {
         if(user == null) {
             throw new UserNotFoundException("Cannot find user with this ID");
         }
+
         UserDTO userData = new UserDTO(user.getUsername(), user.getFavoritedTrails());
 
         System.out.println(user);
