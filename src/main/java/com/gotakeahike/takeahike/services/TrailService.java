@@ -1,9 +1,20 @@
 package com.gotakeahike.takeahike.services;
 
+import com.gotakeahike.takeahike.dto.WeatherDTO;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.repositories.TrailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.web.util.UriComponentsBuilder;
+import reactor.core.publisher.Mono;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.util.List;
 
 
@@ -12,8 +23,31 @@ public class TrailService {
     @Autowired
     private TrailRepository trailRepository;
 
+
+
     public void addNewTrail(Trail newTrail) {
         trailRepository.save(newTrail);
+    }
+
+    private final RestTemplate restTemplate;
+    public TrailService(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
+    @Value("${app.trailKey}") // Change this to the actual key with a better name
+    private String apiKey;
+
+    public HttpResponse<String> getDataFromApi() throws IOException, InterruptedException {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://trailapi-trailapi.p.rapidapi.com/activity/?q-activities_activity_type_name_eq=hiking"))
+                .header("x-rapidapi-key", apiKey)
+                .header("x-rapidapi-host", "trailapi-trailapi.p.rapidapi.com")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
+        return response;
+//        return restTemplate.getForObject(response.body() <- this is string, YOUR-DTO.class <- this makes it into a json object from your java class);
     }
 
     public List<Trail> findAllTrails() throws Exception {

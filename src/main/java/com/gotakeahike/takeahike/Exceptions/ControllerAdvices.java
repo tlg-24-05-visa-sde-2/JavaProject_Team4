@@ -1,5 +1,6 @@
 package com.gotakeahike.takeahike.Exceptions;
 
+import org.json.JSONException;
 import org.springframework.core.annotation.Order;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.http.HttpStatus;
@@ -66,6 +67,11 @@ public class ControllerAdvices extends ResponseEntityExceptionHandler {
     @ExceptionHandler(value = {UserNotFoundException.class})
     private ResponseEntity<?> userNotFoundException(Exception ex) {
         return new ResponseEntity<>(ex.getMessage(), NOT_FOUND);
+    }
+
+    @ExceptionHandler(value = {JSONException.class})
+    private ResponseEntity<String> jsonError(Exception ex) {
+        return new ResponseEntity<>(ex.getMessage(), INTERNAL_SERVER_ERROR);
     }
 
     @ExceptionHandler(value = {JobNotFoundException.class})
