@@ -66,7 +66,7 @@ public class JwtTokenProvider {
                 .compact();
     }
 
-    public static boolean validateToken(String token) throws Exception {
+    public static boolean validateToken(String token) throws AuthenticationException {
         try {
             Jwts.parser().setSigningKey(secretKey).parseClaimsJws(token);
             return true;
