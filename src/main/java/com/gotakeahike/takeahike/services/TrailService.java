@@ -25,6 +25,4 @@ public class TrailService {
     }
 
     //TODO: Trail API findTrailByID
-
-
 }

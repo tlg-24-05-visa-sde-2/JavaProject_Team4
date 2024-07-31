@@ -3,12 +3,12 @@ package com.gotakeahike.takeahike.repositories;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.lang.NonNullApi;
 
 import java.util.List;
 
 public interface TrailRepository extends JpaRepository<Trail, Long> {
-
-    List<Trail> findByUser(Long userId);
+    List<Trail> findByUser(User userId);
 
     Trail getById(Long id);
 }

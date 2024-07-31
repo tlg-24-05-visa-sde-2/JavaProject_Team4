@@ -41,4 +41,25 @@ public class User {
         this.username = username;
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder trailsString = new StringBuilder("[");
+        for (Trail trail : favoritedTrails) {
+            trailsString.append(trail.toString()).append(", ");
+        }
+        if (trailsString.length() > 1) {
+            trailsString.setLength(trailsString.length() - 2); // Remove the trailing ", "
+        }
+        trailsString.append("]");
+
+        return "User: " +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", experience=" + experience +
+                ", favoritedTrails=" + trailsString;
+    }
 }
