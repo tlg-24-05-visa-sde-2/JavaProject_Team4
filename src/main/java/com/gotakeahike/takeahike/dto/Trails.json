@@ -1,0 +1,2902 @@
+{
+  "2": {
+    "name": "Upper Russian Lakes Trail",
+    "city": "Cooper Landing",
+    "state": "Alaska",
+    "country": "United States",
+    "description": "Upper Russian Lakes Trail features 21 miles of hiking trails near Anchorage, AK.",
+    "directions": "The trail head starts at mile 11 Snug Harbor Road in Cooper Landing, this ride is a point a-b so make sure you have shuttle back to your car or be prepared to ride another 16 or so miles on snug Harbor road to retreive your vehicle.",
+    "lat": "0.0000",
+    "lon": "0.0000",
+    "parent_id": "0",
+    "place_id": "2",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=433",
+        "length": "21",
+        "description": "Upper Russian Lakes Trail features 21 miles of hiking trails near Anchorage, AK.",
+        "name": "Upper Russian Lakes Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "21"
+        },
+        "place_activity_id": "946017"
+      }
+    }
+  },
+  "9": {
+    "name": "Blm Campbell Tract",
+    "city": "Anchorage",
+    "state": "Alaska",
+    "country": "United States",
+    "description": "Blm Campbell Tract features 12 miles of hiking trails near Anchorage, AK.",
+    "directions": "Directions: Two main entrances:&lt;br \/&gt; Smokejumper Trailhead: Exit off the Seward Hwy at Dowling Street, following it 1\/2 mile east to Lake Otis Parkway. Turn south on Lake Otis, east on 68th Avenue towards the mountains, and south on Abbott Loop Road. Turn east immediately into the Campbell Tract Facility; Smokejumper Trailhead's on the left. &lt;br \/&gt; &lt;br \/&gt; Campbell Airstrip (Mile 1.1): Exit east off the Seward Highway onto Tudor Road. Drive approximately 3 miles before turning south on Campbell Airstrip Road, then turn right into the parking lot after 1.1 miles. Look for the &quot;Campbell Airstrip Trailhead&quot; sign",
+    "lat": "61.1662",
+    "lon": "-149.7640",
+    "parent_id": "0",
+    "place_id": "9",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=564",
+        "length": "12",
+        "description": "Blm Campbell Tract features 12 miles of hiking trails near Anchorage, AK.",
+        "name": "Blm Campbell Tract",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "946143"
+      }
+    }
+  },
+  "12": {
+    "name": "Resurrection Pass",
+    "city": "Cooper Landing \/ Hope",
+    "state": "Alaska",
+    "country": "United States",
+    "description": "Resurrection Pass features 38 miles of hiking trails near Cooper Landing \/ Hope, AK.",
+    "directions": "GO down the seward highway from anchorage all the way past the hope turn off. you\\'ll come to a fork in the high way that says kenai to the left take it, go through kenai until cooper landing the trail starts on the right hand side of the road the turn off is right on the highway with a big sign that says chugach national park resurrection pass.",
+    "lat": "0.0000",
+    "lon": "0.0000",
+    "parent_id": "0",
+    "place_id": "12",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=567",
+        "length": "38",
+        "description": "Resurrection Pass features 38 miles of hiking trails near Cooper Landing \/ Hope, AK.",
+        "name": "Resurrection Pass",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "38"
+        },
+        "place_activity_id": "946146"
+      }
+    }
+  },
+  "32": {
+    "name": "Chickasabogue Park",
+    "city": "Mobile",
+    "state": "Alabama",
+    "country": "United States",
+    "description": "Chickasabogue Park features 14 miles of hiking trails near Mobile, AL.",
+    "directions": "I-65 to three-mile exit, follow signs to Chickasabogue Park. Have one dollar ready and check direction of ride at park office.",
+    "lat": "30.7789",
+    "lon": "-88.1075",
+    "parent_id": "0",
+    "place_id": "32",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=264",
+        "length": "14",
+        "description": "Chickasabogue Park features 14 miles of hiking trails near Mobile, AL.",
+        "name": "Chickasabogue Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "14"
+        },
+        "place_activity_id": "945855"
+      }
+    }
+  },
+  "34": {
+    "name": "Oak Mountain State Park Bump Trail",
+    "city": "Birmingham",
+    "state": "Alabama",
+    "country": "United States",
+    "description": "Oak Mountain State Park Bump Trail features 18 miles of hiking trails near Birmingham, AL.",
+    "directions": "Take I-65 south from Birmingham, look for Oak Mtn State Park signs. Very easy to find. Opens 6:00 most days til dusk.",
+    "lat": "33.3225",
+    "lon": "-86.7622",
+    "parent_id": "0",
+    "place_id": "34",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=263",
+        "length": "18",
+        "description": "Oak Mountain State Park Bump Trail features 18 miles of hiking trails near Birmingham, AL.",
+        "name": "Oak Mountain State Park Bump Trail",
+        "rank": "0",
+        "rating": "5.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_6680-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "18"
+        },
+        "place_activity_id": "945854"
+      }
+    }
+  },
+  "38": {
+    "name": "Swayback Bridge Trail",
+    "city": "Wetumpka",
+    "state": "Alabama",
+    "country": "United States",
+    "description": "Swayback Bridge Trail features 8 miles of hiking trails near Wetumpka, AL.",
+    "directions": "Located North of Montgomery, Al.  Take US231 Northfrom Montgomery through Wetumpka.  You will cross AS14 and go 3.4 miles to the turn to Jordan Dam and YMCA Camp Chandler.  This is old 231 and you can only turn lwft.  You will go 2.4 miles down old 231 till you see a turnoff to the dam and the camp.  Look for RED Sign SWAYBACK BRIDGE TRAIL.  Travel 100 yards to the trailhead.  It is be the short (70yd) dirt road that connects old 231 and the road to the dam.  The trail starts just off of old 231.  If you cross the swayback bridge you have gone to far.",
+    "lat": "32.6244",
+    "lon": "-86.2406",
+    "parent_id": "0",
+    "place_id": "38",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=262",
+        "length": "8",
+        "description": "Swayback Bridge Trail features 8 miles of hiking trails near Wetumpka, AL.",
+        "name": "Swayback Bridge Trail",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "945853"
+      }
+    }
+  },
+  "45": {
+    "name": "Hurricane Creek",
+    "city": "Cullman",
+    "state": "Alabama",
+    "country": "United States",
+    "description": "Hurricane Creek features 6 miles of hiking trails near Cullman, AL.",
+    "directions": "Take I-65 North bound from Birmingham. Get off at exit 318, just past Cullman. Hang a right on highway 31, and the Hurricane Creek Nature Area will be on you left about 1 or 2 miles down the road.",
+    "lat": "34.2871",
+    "lon": "-86.8957",
+    "parent_id": "0",
+    "place_id": "45",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=119",
+        "length": "6",
+        "description": "Hurricane Creek features 6 miles of hiking trails near Cullman, AL.",
+        "name": "Hurricane Creek",
+        "rank": "0",
+        "rating": "5.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945713"
+      }
+    }
+  },
+  "47": {
+    "name": "Usa",
+    "city": "Mobile",
+    "state": "Alabama",
+    "country": "United States",
+    "description": "Usa features 9 miles of hiking trails near Mobile, AL.",
+    "directions": "Behind University of Southern Alabama",
+    "lat": "30.6984",
+    "lon": "-88.1798",
+    "parent_id": "0",
+    "place_id": "47",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=284",
+        "length": "9",
+        "description": "Usa features 9 miles of hiking trails near Mobile, AL.",
+        "name": "Usa",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945875"
+      }
+    }
+  },
+  "78": {
+    "name": "Fossil Flats",
+    "city": "West Fork",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Fossil Flats features 5 miles of hiking trails near West Fork, AR.",
+    "directions": "From Interstate 540 take Hwy 74 west approximately 7 miles to Devil's Den State Park.  Turn right into Camp Area A and park at the end of the campground.",
+    "lat": "35.7837",
+    "lon": "-94.2447",
+    "parent_id": "0",
+    "place_id": "78",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=332",
+        "length": "5",
+        "description": "Fossil Flats features 5 miles of hiking trails near West Fork, AR.",
+        "name": "Fossil Flats",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945921"
+      }
+    }
+  },
+  "79": {
+    "name": "Michael P. Mangione",
+    "city": "Fayetteville",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Michael P. Mangione features 5 miles of hiking trails near Fayetteville, AR.",
+    "directions": "This loop trail begins at the Lake Fayetteville Park or an alternative starting point is Veterans Park of Zion Road (Behind Lowes).  ",
+    "lat": "0.0000",
+    "lon": "0.0000",
+    "parent_id": "0",
+    "place_id": "79",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=395",
+        "length": "5",
+        "description": "Michael P. Mangione features 5 miles of hiking trails near Fayetteville, AR.",
+        "name": "Michael P. Mangione",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945981"
+      }
+    }
+  },
+  "86": {
+    "name": "Syllamo Trails",
+    "city": "Mountain View",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Syllamo Trails features 22 miles of hiking trails near Mountain View, AR.",
+    "directions": "the Syllamo Trailhead on Arkansas Highway 5 north of Mountain View, AR, as well as several locations along Green Mountain Road.  For a map, go to http:\/\/www.ozarkgetaways.com\/Syllamo_Bike_Map.pdf.",
+    "lat": "36.0088",
+    "lon": "-92.1174",
+    "parent_id": "0",
+    "place_id": "86",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=449",
+        "length": "22",
+        "description": "Syllamo Trails features 22 miles of hiking trails near Mountain View, AR.",
+        "name": "Syllamo Trails",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "22"
+        },
+        "place_activity_id": "946033"
+      }
+    }
+  },
+  "89": {
+    "name": "Lake Fayetteville Trail",
+    "city": "Fayetteville",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Lake Fayetteville Trail features 5 miles of hiking trails near Fayetteville, AR.",
+    "directions": "From Northwest Arkansas Mall in Fayetteville, drive North on U.S. Highway #71B about 1\/2 mile and turn right on Lake Fayetteville Road. Take this road to the parking lot on the West end of Lake Fayetteville.",
+    "lat": "36.1371",
+    "lon": "-94.1412",
+    "parent_id": "0",
+    "place_id": "89",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=505",
+        "length": "5",
+        "description": "Lake Fayetteville Trail features 5 miles of hiking trails near Fayetteville, AR.",
+        "name": "Lake Fayetteville Trail",
+        "rank": "0",
+        "rating": "5.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "946088"
+      }
+    }
+  },
+  "90": {
+    "name": "Beacham Trail",
+    "city": "Eureka Springs",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Beacham Trail features 4 miles of hiking trails near Eureka Springs, AR.",
+    "directions": "From Eureka Springs, drive West on U.S. Highway #62 about 2 miles to the entrance of Lake Leatherwood Park. Turn right into the park entrance and proceed to the parking areas near the lake.",
+    "lat": "36.4348",
+    "lon": "-93.7597",
+    "parent_id": "0",
+    "place_id": "90",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=614",
+        "length": "4",
+        "description": "Beacham Trail features 4 miles of hiking trails near Eureka Springs, AR.",
+        "name": "Beacham Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "4"
+        },
+        "place_activity_id": "946193"
+      }
+    }
+  },
+  "91": {
+    "name": "Townsend Ridge Road Trail",
+    "city": "Rogers",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Townsend Ridge Road Trail features 8 miles of hiking trails near Rogers, AR.",
+    "directions": "From the intersection of U.S. Highway #62 and U.S. Highway #12 in Rogers, drive East on U.S. Highway #12 about 12.5 miles to Townsend Ridge Road. Turn right on Townsend Ridge Road and continue about 1.8 miles to the trailhead on the right.",
+    "lat": "36.2724",
+    "lon": "-93.9658",
+    "parent_id": "0",
+    "place_id": "91",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=507",
+        "length": "8",
+        "description": "Townsend Ridge Road Trail features 8 miles of hiking trails near Rogers, AR.",
+        "name": "Townsend Ridge Road Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "946090"
+      }
+    }
+  },
+  "92": {
+    "name": "Dam Overlook",
+    "city": "Eureka Springs",
+    "state": "Arkansas",
+    "country": "United States",
+    "description": "Dam Overlook features 4 miles of hiking trails near Eureka Springs, AR.",
+    "directions": "From Eureka Springs, drive West on U.S. Highway #62 about 2 miles to the entrance of Lake Leatherwood Park. Turn right into the park entrance and proceed to the parking areas near the lake.",
+    "lat": "36.4356",
+    "lon": "-93.7604",
+    "parent_id": "0",
+    "place_id": "92",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=508",
+        "length": "4",
+        "description": "Dam Overlook features 4 miles of hiking trails near Eureka Springs, AR.",
+        "name": "Dam Overlook",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "4"
+        },
+        "place_activity_id": "946091"
+      }
+    }
+  },
+  "144": {
+    "name": "Hawes Loop",
+    "city": "Mesa",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Hawes Loop features 12 miles of hiking trails near Mesa, AZ.",
+    "directions": "Getting to Hawes is very easy. Take the US 60 East to Power Rd. Drive Northbound on Power Rd until you get to McDowell Rd. On the Southeast corner of Power and McDowell, there is an Albertson's shopping center. Park here to begin the ride.  Ride your bike Eastbound on McDowell Rd for about 2 miles.  You will then come to the Hawes Rd intersection, turn left and ride for another 1.3 miles to get to the trailhead. The 3.3 miles from the shopping center is all paved and is all up hill. This is a great warm up and gets the blood pumping before you begin the single-track, Hawes Rd. dead ends at the trailhead. Simply keep riding straight on ahead to access the trail. ",
+    "lat": "33.4660",
+    "lon": "-111.6828",
+    "parent_id": "0",
+    "place_id": "144",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=579",
+        "length": "12",
+        "description": "Hawes Loop features 12 miles of hiking trails near Mesa, AZ.",
+        "name": "Hawes Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "946158"
+      }
+    }
+  },
+  "145": {
+    "name": "Papago Park Area",
+    "city": "Tempe",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Papago Park Area features 5 miles of hiking trails near Tempe, AZ.",
+    "directions": "To get to the trail head starting from Mill Ave &amp; University:Take Mill North, over the lake. Keep on it until Priest Drive\/Galvin Parkway. Take a right. Go on Galvin until McDowell. Take a right. Go until the corner of a Jaguar\/Porche dealer and take it right onto College. (Dealership on right). Take that just over a mile. You'll see a stone sign for Canal Park. Take that. It's called Marigold. Park in the lot. Ride in the direction you were driving until you see trails on left. You could also go to the right and head for the big slick looking rocks. Those trails are much more tame, but still fun.",
+    "lat": "33.4481",
+    "lon": "-111.9366",
+    "parent_id": "0",
+    "place_id": "145",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=261",
+        "length": "5",
+        "description": "Papago Park Area features 5 miles of hiking trails near Tempe, AZ.",
+        "name": "Papago Park Area",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945852"
+      }
+    }
+  },
+  "148": {
+    "name": "National Trail",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "National Trail features 14 miles of hiking trails near Phoenix, AZ.",
+    "directions": "1-10 to Baseline Road go right (west) to 48th street.  Take 48th street 1\/4 mile past Euclid and turn right (sign indicating park entrance).  Go 400 feet and turn left head to parking lot\/trailhead.",
+    "lat": "33.3628",
+    "lon": "-111.9859",
+    "parent_id": "0",
+    "place_id": "148",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=173",
+        "length": "14",
+        "description": "National Trail features 14 miles of hiking trails near Phoenix, AZ.",
+        "name": "National Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/www.tripleblaze.com\/.\/ra-content\/images\/uploads\/2014\/07\/cdv_photo_004-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "14"
+        },
+        "place_activity_id": "945766"
+      }
+    }
+  },
+  "149": {
+    "name": "50-year Trail \/ Golder Ranch",
+    "city": "Tucson",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "50-year Trail \/ Golder Ranch features 0 miles of hiking trails near Tucson, AZ.",
+    "directions": "North on Oracle to Golder Ranch Road.  Travel east until asphalt turns to dirt - park in large dirt area at top of hill.  Trails start across the road, due east.",
+    "lat": "32.4748",
+    "lon": "-110.8925",
+    "parent_id": "0",
+    "place_id": "149",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=166",
+        "length": "0",
+        "description": "50-year Trail \/ Golder Ranch features 0 miles of hiking trails near Tucson, AZ.",
+        "name": "50-year Trail \/ Golder Ranch",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "0"
+        },
+        "place_activity_id": "945759"
+      }
+    }
+  },
+  "150": {
+    "name": "Pima Rd And Dynamite Blvd",
+    "city": "North Scottsdale",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Pima Rd And Dynamite Blvd features 22 miles of hiking trails near North Scottsdale, AZ.",
+    "directions": "Take Loop 101 to N. Pima Rd. Go north about 4 or 5 miles to E. Dynamite Blvd. Park on the NE corner.  http:\/\/maps.yahoo.com\/maps_result?ed=5ktITup_0TrBgOipaBUwL8jjrLELC_femJVyzDeUqKHEDvqzLXelSw--&amp;csz=scottsdale+az&amp;country=us&amp;new=1&amp;name=&amp;qty=",
+    "lat": "33.7435",
+    "lon": "-111.8876",
+    "parent_id": "0",
+    "place_id": "150",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=401",
+        "length": "22",
+        "description": "Pima Rd And Dynamite Blvd features 22 miles of hiking trails near North Scottsdale, AZ.",
+        "name": "Pima Rd And Dynamite Blvd",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "22"
+        },
+        "place_activity_id": "945987"
+      }
+    }
+  },
+  "153": {
+    "name": "Trail #100",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Trail #100 features 10 miles of hiking trails near Phoenix, AZ.",
+    "directions": "Coming from Phoenix or elsewhere get yourself on to the Loop 101 portion east of I-17.  Take the route 51 exit either N or S, dependent upon your location on the loop. Take the Northern Ave exit off of 51 and follow signs to Dreamy Draw Park. You are at the trailhead in the middle of Trail #100.  There are also other trailheads at 7th  and also at Tatum that access the terminus of the trail. Parking though is best at Dreamy Draw.",
+    "lat": "33.5658",
+    "lon": "-112.0272",
+    "parent_id": "0",
+    "place_id": "153",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=125",
+        "length": "10",
+        "description": "Trail #100 features 10 miles of hiking trails near Phoenix, AZ.",
+        "name": "Trail #100",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "945719"
+      }
+    }
+  },
+  "154": {
+    "name": "Sunrise Peak",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Sunrise features 10 miles of hiking trails near Scottsdale, AZ.",
+    "directions": "124th street and Via Linda. Take Via Linda to 124th street and turn left, go past Cactus and the trail head is in Lost Dog Trail Park on your right.",
+    "lat": "33.5963",
+    "lon": "-111.7684",
+    "parent_id": "0",
+    "place_id": "154",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=673",
+        "length": "10",
+        "description": "Sunrise features 10 miles of hiking trails near Scottsdale, AZ.",
+        "name": "Sunrise Peak",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946251"
+      }
+    }
+  },
+  "163": {
+    "name": "Brown Canyon",
+    "city": "Sierra Vista",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Brown Canyon features 6 miles of hiking trails near Sierra Vista, AZ.",
+    "directions": "Starting from Sierra Vista, drive south on highway 92 for aprx. 5 miles. Turn right onto Ramsey Canyon Road and drive 4 miles. Look for the Brown Canyon Trail Head sign on the right side of the road, there is a small dirt parking area at the trail head. ",
+    "lat": "31.4583",
+    "lon": "-110.2976",
+    "parent_id": "0",
+    "place_id": "163",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=83",
+        "length": "6",
+        "description": "Brown Canyon features 6 miles of hiking trails near Sierra Vista, AZ.",
+        "name": "Brown Canyon",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945677"
+      }
+    }
+  },
+  "167": {
+    "name": "Broken Arrow",
+    "city": "Sedona",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Broken Arrow features 2 miles of hiking trails near Sedona, AZ.",
+    "directions": "Hwy 179 to Morgan St. follow up to Broken Arrow trailhead.",
+    "lat": "34.8454",
+    "lon": "-111.7566",
+    "parent_id": "0",
+    "place_id": "167",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=581",
+        "length": "2",
+        "description": "Broken Arrow features 2 miles of hiking trails near Sedona, AZ.",
+        "name": "Broken Arrow",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "2"
+        },
+        "place_activity_id": "946160"
+      }
+    }
+  },
+  "173": {
+    "name": "Oldham Trail",
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Oldham Trail features 12 miles of hiking trails near Flagstaff, AZ.",
+    "directions": "Get to Flagstaff.  Find your way to Buffalo Park, not hard to find.  Start at Buffalo Park.  Head out towards the peaks.  Down the stone road for 1\/2 mile maybe.  Then head for the trees.",
+    "lat": "35.2187",
+    "lon": "-111.6331",
+    "parent_id": "0",
+    "place_id": "173",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=485",
+        "length": "12",
+        "description": "Oldham Trail features 12 miles of hiking trails near Flagstaff, AZ.",
+        "name": "Oldham Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "946068"
+      }
+    }
+  },
+  "177": {
+    "name": "San Tan",
+    "city": "Queen Creek",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "San Tan features 10 miles of hiking trails near Queen Creek, AZ.",
+    "directions": "Get on Hunt Hghway and go a couple of miles east of Ellsworth.  Take a right at Thompson road and follow for a couple more miles.  At first stop sign take a right onto Phillips road.  This leads you right into the San Tan Mountain Regional Park.  You can park inside the gates for $6 or on Phillips for free and ride in ($1 entrance fee).  ",
+    "lat": "33.1682",
+    "lon": "-111.6351",
+    "parent_id": "0",
+    "place_id": "177",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=575",
+        "length": "10",
+        "description": "San Tan features 10 miles of hiking trails near Queen Creek, AZ.",
+        "name": "San Tan",
+        "rank": "0",
+        "rating": "2.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_0840-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946154"
+      }
+    }
+  },
+  "183": {
+    "name": "Molino Basin",
+    "city": "Tucson",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Molino Basin features 8 miles of hiking trails near Tucson, AZ.",
+    "directions": "Take the Mount Lemmon Highway to Molino Basin (mile 5.6). Park at the Molino Basin campground parking lot. The trailhead is across Mt Lemmon Hwy from the parking lot.",
+    "lat": "32.3375",
+    "lon": "-110.6905",
+    "parent_id": "0",
+    "place_id": "183",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=664",
+        "length": "8",
+        "description": "Molino Basin features 8 miles of hiking trails near Tucson, AZ.",
+        "name": "Molino Basin",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "946242"
+      }
+    }
+  },
+  "185": {
+    "name": "Tucson Mountain Park",
+    "city": "Tucson",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Tucson Mountain Park features 1 miles of hiking trails near Tucson, AZ.",
+    "directions": "From I-10 take Speedway west. Follow Speedway over Gates Pass. Just about any one of the pullout has a trail head.",
+    "lat": "32.2054",
+    "lon": "-111.0469",
+    "parent_id": "0",
+    "place_id": "185",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=695",
+        "length": "1",
+        "description": "Tucson Mountain Park features 1 miles of hiking trails near Tucson, AZ.",
+        "name": "Tucson Mountain Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "1"
+        },
+        "place_activity_id": "946270"
+      }
+    }
+  },
+  "187": {
+    "name": "Desert Classic",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Desert Classic features 9 miles of hiking trails near Phoenix, AZ.",
+    "directions": "Take Elliott off the 10 and go north on 48th until it bears right toward baseline.  Go left at this point then take another quick left (thnik its Pima Canyon Road) toward a small gaurd tower (don't need to stop) and park anywhere on the side or at the end is a small parking lot.  Desert Classic trail is to the left of the parking\/picnic area.  ",
+    "lat": "33.3628",
+    "lon": "-111.9861",
+    "parent_id": "0",
+    "place_id": "187",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=671",
+        "length": "9",
+        "description": "Desert Classic features 9 miles of hiking trails near Phoenix, AZ.",
+        "name": "Desert Classic",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "946249"
+      }
+    }
+  },
+  "188": {
+    "name": "Lower Oldham Loop",
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Lower Oldham Loop features 6 miles of hiking trails near Flagstaff, AZ.",
+    "directions": "From Route 66 in downtown Flagstaff turn north onto San &lt;br \/&gt;Francisco st and follow it up past the hospital to Forest ave. Turn right and drive less than a mile and follow signs to a left turn to Buffalo Park. This particular trailhead gives you access to numerous trails, no less than 75 miles of singletrack and 1600 ft of climbing should you choose to do so.&lt;br \/&gt;",
+    "lat": "35.2177",
+    "lon": "-111.6328",
+    "parent_id": "0",
+    "place_id": "188",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=663",
+        "length": "6",
+        "description": "Lower Oldham Loop features 6 miles of hiking trails near Flagstaff, AZ.",
+        "name": "Lower Oldham Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "946241"
+      }
+    }
+  },
+  "193": {
+    "name": "Templeton\/ Baldwin Loop",
+    "city": "Sedona",
+    "state": "Arizona",
+    "country": "United States",
+    "description": "Templeton\/ Baldwin Loop features 10 miles of hiking trails near Sedona, AZ.",
+    "directions": "Located between Sedona and Oak Creek the Templeton tr is accessed from the Bell Rock Pathway, I suggest parking at the middle Viewpoint parking area on highway 179 between Sedona and Oak Creek although you could also park at either end of the Pathway and ride to the Templeton trailhead. From the middle viewpoint ride north (downhill) on the B.R. Pathway aprox .7 mi to one of the only trails heading off to the left (west), there is a metal sign marking the trailhead.&lt;br \/&gt;",
+    "lat": "34.8080",
+    "lon": "-111.7653",
+    "parent_id": "0",
+    "place_id": "193",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=672",
+        "length": "10",
+        "description": "Templeton\/ Baldwin Loop features 10 miles of hiking trails near Sedona, AZ.",
+        "name": "Templeton\/ Baldwin Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946250"
+      }
+    }
+  },
+  "279": {
+    "name": "Fort Ord Public Lands",
+    "city": "Monterey",
+    "state": "California",
+    "country": "United States",
+    "description": "Fort Ord Public Lands features 18 miles of hiking trails near Monterey, CA.",
+    "directions": "101 to Monterey Peninsula exit, the road becomes California Hwy 68.  Access the trails via Fort Ord or Laguna Seca of Hwy 68.",
+    "lat": "36.5887",
+    "lon": "-121.7127",
+    "parent_id": "0",
+    "place_id": "279",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=387",
+        "length": "18",
+        "description": "Fort Ord Public Lands features 18 miles of hiking trails near Monterey, CA.",
+        "name": "Fort Ord Public Lands",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "18"
+        },
+        "place_activity_id": "945973"
+      }
+    }
+  },
+  "280": {
+    "name": "Alum Rock Park",
+    "city": "San Jose",
+    "state": "California",
+    "country": "United States",
+    "description": "Alum Rock Park features 5 miles of hiking trails near San Jose, CA.",
+    "directions": "Find I680; take Berryessa (East) or Capitol Ave. (south) exit. (From Berryessa, turn right onto Capitol.) Then left onto Penitencia, to its end at a chained gate with a dirt parking lot",
+    "lat": "37.3935",
+    "lon": "-121.8157",
+    "parent_id": "0",
+    "place_id": "280",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=258",
+        "length": "5",
+        "description": "Alum Rock Park features 5 miles of hiking trails near San Jose, CA.",
+        "name": "Alum Rock Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945849"
+      }
+    }
+  },
+  "281": {
+    "name": "American River Bike Trail",
+    "city": "Sacramento",
+    "state": "California",
+    "country": "United States",
+    "description": "American River Bike Trail features 32 miles of hiking trails near Sacramento, CA.",
+    "directions": "Starting at the confluence of the American and Sacramento Rivers, this trail heads east to Folsom Lake.  The total distance (one-way) is 32 miles.  You can ride any distance since it is an out and back ride. There is currently no &quot;legal'&quot;singletrack along this route, however that is under review within the Parks &amp; Rec departments that oversee the Trail.  However, you may be able to divert from the paved path up to the levees along the American River to get some dirt under your tires.  The path on top of the levee is legal to ride on. ",
+    "lat": "38.6009",
+    "lon": "-121.5078",
+    "parent_id": "0",
+    "place_id": "281",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=333",
+        "length": "32",
+        "description": "American River Bike Trail features 32 miles of hiking trails near Sacramento, CA.",
+        "name": "American River Bike Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "32"
+        },
+        "place_activity_id": "945922"
+      }
+    }
+  },
+  "285": {
+    "name": "Boggs forest",
+    "city": "Cobb",
+    "state": "California",
+    "country": "United States",
+    "description": "Boggs forest features 0 miles of hiking trails near Cobb, CA.",
+    "directions": "From Napa North on Hwy 29 to Middletown. Left on Hwy 175 (first stop lite). 7mi. Thru Cobb.  Right on Forestry road (Forest fire station sign) 1\/3 mile to helipad\/parking.",
+    "lat": "38.8351",
+    "lon": "-122.7194",
+    "parent_id": "0",
+    "place_id": "285",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=689",
+        "length": "0",
+        "description": "Boggs forest features 0 miles of hiking trails near Cobb, CA.",
+        "name": "Boggs forest",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "0"
+        },
+        "place_activity_id": "946265"
+      }
+    }
+  },
+  "286": {
+    "name": "El Corte de Madera Creek Open Space Pres",
+    "city": "Woodside",
+    "state": "California",
+    "country": "United States",
+    "description": "El Corte de Madera Creek Open Space Pres features 20 miles of hiking trails near Woodside, CA.",
+    "directions": "Take 280N (from San Jose) to Woodside Rd\/Hwy 84 Exit.  Turn left (west) onto Woodside Rd.  Turn right onto Kings Mountain, at the Y-intersection, keep right on Kings Mountain.  Pass Huddart State Park then turn left onto Skyline Blvd.   The trailhead is on the right hand side, shortly before the Skeggs Point overlook, park at the overlook.",
+    "lat": "37.4204",
+    "lon": "-122.3265",
+    "parent_id": "0",
+    "place_id": "286",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=260",
+        "length": "20",
+        "description": "El Corte de Madera Creek Open Space Pres features 20 miles of hiking trails near Woodside, CA.",
+        "name": "El Corte de Madera Creek Open Space Pres",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "20"
+        },
+        "place_activity_id": "945851"
+      }
+    }
+  },
+  "287": {
+    "name": "Fremont Older",
+    "city": "Cupertino",
+    "state": "California",
+    "country": "United States",
+    "description": "Fremont Older features 0 miles of hiking trails near Cupertino, CA.",
+    "directions": "",
+    "lat": "37.2930",
+    "lon": "-122.0623",
+    "parent_id": "0",
+    "place_id": "287",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=666",
+        "length": "0",
+        "description": "Fremont Older features 0 miles of hiking trails near Cupertino, CA.",
+        "name": "Fremont Older",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "0"
+        },
+        "place_activity_id": "946244"
+      }
+    }
+  },
+  "295": {
+    "name": "MOOMOO hill",
+    "city": "Walnut Creek",
+    "state": "California",
+    "country": "United States",
+    "description": "MOOMOO hill features 5 miles of hiking trails near Walnut Creek, CA.",
+    "directions": "start at lime ridge entrance, look towards the tallest hill there will be two trails one on the left one on the right sort of in the middle the left trail has staris and gates it is easier to go up that one. Pick a trail and bomb it.  WARNING you go very fast a friend of mine ate it going 30 down it and got a concussion.",
+    "lat": "37.9467",
+    "lon": "-121.9923",
+    "parent_id": "0",
+    "place_id": "295",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=688",
+        "length": "5",
+        "description": "MOOMOO hill features 5 miles of hiking trails near Walnut Creek, CA.",
+        "name": "MOOMOO hill",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "946264"
+      }
+    }
+  },
+  "296": {
+    "name": "Saratoga Gap",
+    "city": "Saratoga",
+    "state": "California",
+    "country": "United States",
+    "description": "Saratoga Gap features 10 miles of hiking trails near Saratoga, CA.",
+    "directions": "From Saratoga take Highway 9 toward 35 (take a right on Hwy 9 toward Big Basin) follow the very winding road til you reach the cross of Hwy 9 and 35 and park on the left. Walk across hwy 9 and you are at the trailhead (feel free to take a map, might want to use it too)",
+    "lat": "37.2574",
+    "lon": "-122.1213",
+    "parent_id": "0",
+    "place_id": "296",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=257",
+        "length": "10",
+        "description": "Saratoga Gap features 10 miles of hiking trails near Saratoga, CA.",
+        "name": "Saratoga Gap",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_0738-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "945848"
+      }
+    }
+  },
+  "300": {
+    "name": "Purisma Creek",
+    "city": "Woodside",
+    "state": "California",
+    "country": "United States",
+    "description": "Purisma Creek features 9 miles of hiking trails near Woodside, CA.",
+    "directions": "From 280 or 101 take Hwy 92 exit west towards Half Moon Bay.  Turn south (left) on Skyline &lt;BR&gt;Blvd\/Hwy 35.  Parking lot is 4.5 miles down the road on the right.  Trail maps available at &lt;BR&gt;the trailhead.",
+    "lat": "37.4502",
+    "lon": "-122.3386",
+    "parent_id": "0",
+    "place_id": "300",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=298",
+        "length": "9",
+        "description": "Purisma Creek features 9 miles of hiking trails near Woodside, CA.",
+        "name": "Purisma Creek",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945887"
+      }
+    }
+  },
+  "301": {
+    "name": "Salmon Falls",
+    "city": "Folsom",
+    "state": "California",
+    "country": "United States",
+    "description": "Salmon Falls features 14 miles of hiking trails near Folsom, CA.",
+    "directions": "From US Hwy 50 exit El Dorado Hills Blvd. north.  Continue for about 8 miles as the road name changes to Salmon Falls Rd.  About 10 miles from the freeway you will come to a bridge crossing the American River.  This is the trailhead on the left hand side of the road.  Fee parking is at the trailhead.  FREE parking is on the south side of the bridge.  It is your call....",
+    "lat": "38.7737",
+    "lon": "-121.0346",
+    "parent_id": "0",
+    "place_id": "301",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=256",
+        "length": "14",
+        "description": "Salmon Falls features 14 miles of hiking trails near Folsom, CA.",
+        "name": "Salmon Falls",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "14"
+        },
+        "place_activity_id": "945847"
+      }
+    }
+  },
+  "307": {
+    "name": "Arastradero Preserve",
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States",
+    "description": "Arastradero Preserve features 8 miles of hiking trails near Palo Alto, CA.",
+    "directions": "From 280, take the Page Mill Rd exit south (left if your driving north from San Jose).  After &lt;br \/&gt;~1\/4 mile turn right on Arastradero Rd.  Parking lot is on the right about 1\/2 mile on &lt;br \/&gt;Arastradero Rd. ",
+    "lat": "37.3855",
+    "lon": "-122.1730",
+    "parent_id": "0",
+    "place_id": "307",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=187",
+        "length": "8",
+        "description": "Arastradero Preserve features 8 miles of hiking trails near Palo Alto, CA.",
+        "name": "Arastradero Preserve",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "945780"
+      }
+    }
+  },
+  "308": {
+    "name": "Monte Bello Open Space",
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States",
+    "description": "Monte Bello Open Space features 6 miles of hiking trails near Palo Alto, CA.",
+    "directions": "Go north on 280 from San Jose, exit Page Mill Rd.  Turn left, go about 7 miles into the hills &lt;br \/&gt;and there will be a parking lot on the left for Monte Bello Open Space.  If you get to Skyline &lt;br \/&gt;Blvd, you have gone at least a mile too far.",
+    "lat": "37.3258",
+    "lon": "-122.1785",
+    "parent_id": "0",
+    "place_id": "308",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=188",
+        "length": "6",
+        "description": "Monte Bello Open Space features 6 miles of hiking trails near Palo Alto, CA.",
+        "name": "Monte Bello Open Space",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945781"
+      }
+    }
+  },
+  "310": {
+    "name": "Camp Tamarancho",
+    "city": "Marin",
+    "state": "California",
+    "country": "United States",
+    "description": "Camp Tamarancho features 10 miles of hiking trails near Marin, CA.",
+    "directions": " From US highway 101, take the Central San Rafael exit. &lt;br \/&gt; Turn west on 3rd street, and travel 1.5 miles. &lt;br \/&gt; 3rd street merges into 4th street, and then into Red Hill Avenue. &lt;br \/&gt; Continue on Red Hill for another 0.7 miles. &lt;br \/&gt; Red Hill Ave merges into Sir Francis Drake Blvd. Follow SFD for another 2.2 miles.   (The map below covers the western end of the Sir Francis Drake route and the turns from SFD to Iron Springs Road). &lt;br \/&gt; Turn left onto Olema Rd. Travel 0.1 miles. &lt;br \/&gt; Turn left on Manor. Travel 50 yards. &lt;br \/&gt; Turn right on Rockridge. Travel 0.1 miles. &lt;br \/&gt; Turn left on Iron Springs Road. &lt;br \/&gt; Camp Tamarancho is at the end of Iron Springs Rd, about 2.0 miles. &lt;br \/&gt; You can't park on the camp property, so you will have to park at the bottom of the road and ride up.  Sorry.&lt;br \/&gt;",
+    "lat": "37.9871",
+    "lon": "-122.5887",
+    "parent_id": "0",
+    "place_id": "310",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=697",
+        "length": "10",
+        "description": "Camp Tamarancho features 10 miles of hiking trails near Marin, CA.",
+        "name": "Camp Tamarancho",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946272"
+      }
+    }
+  },
+  "311": {
+    "name": "China Camp",
+    "city": "Marin",
+    "state": "California",
+    "country": "United States",
+    "description": "China Camp features 12 miles of hiking trails near Marin, CA.",
+    "directions": "Four miles east of San Rafael on the shore of San Pablo Bay. From Highway 101, Exit San Pedro Road, go east on North San Pedro Road for five miles until it enters the park.&lt;br \/&gt;Latitude\/Longitude: 38.0144 \/ -122.4600 ",
+    "lat": "38.0019",
+    "lon": "-122.4628",
+    "parent_id": "0",
+    "place_id": "311",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=313",
+        "length": "12",
+        "description": "China Camp features 12 miles of hiking trails near Marin, CA.",
+        "name": "China Camp",
+        "rank": "0",
+        "rating": "3.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_0600-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "945902"
+      }
+    }
+  },
+  "312": {
+    "name": "Dry Creek Trail",
+    "city": "Modesto",
+    "state": "California",
+    "country": "United States",
+    "description": "Dry Creek Trail features 9 miles of hiking trails near Modesto, CA.",
+    "directions": "Take The Central Modesto Exit- head east on I Street to Downey Ave which then becomes Scenic Dr.  Take Scenic, east to El Vista Ave. go right (south).  The first right, after crossing the Dry Creek bridge, is Edgebrook Dr.  Head west on Edgebrook Dr. to the first stop sign (just past Scenic View Ct)- go right into the park (I think it's called Thousand Oaks Park). This is the best access\/ staging area \/ parking. The trail extends east to Claus Rd. and west to La Loma Ave.  &lt;br \/&gt;",
+    "lat": "37.6507",
+    "lon": "-120.9620",
+    "parent_id": "0",
+    "place_id": "312",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=383",
+        "length": "9",
+        "description": "Dry Creek Trail features 9 miles of hiking trails near Modesto, CA.",
+        "name": "Dry Creek Trail",
+        "rank": "0",
+        "rating": "2.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945969"
+      }
+    }
+  },
+  "315": {
+    "name": "Foresthill Divide",
+    "city": "Auburn",
+    "state": "California",
+    "country": "United States",
+    "description": "Foresthill Divide features 11 miles of hiking trails near Auburn, CA.",
+    "directions": "Hwy 80 to Foresthill Rd.  Head south for about 5 miles and the park in the lot on the right.  See my webpage for maps and gps tracks.  Happy trails!",
+    "lat": "38.9425",
+    "lon": "-120.9824",
+    "parent_id": "0",
+    "place_id": "315",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=385",
+        "length": "11",
+        "description": "Foresthill Divide features 11 miles of hiking trails near Auburn, CA.",
+        "name": "Foresthill Divide",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "11"
+        },
+        "place_activity_id": "945971"
+      }
+    }
+  },
+  "322": {
+    "name": "Santa Teresa Park",
+    "city": "San Jose",
+    "state": "California",
+    "country": "United States",
+    "description": "Santa Teresa Park features 6 miles of hiking trails near San Jose, CA.",
+    "directions": "101 to bernal ave..follow signs to park",
+    "lat": "37.2142",
+    "lon": "-121.7967",
+    "parent_id": "0",
+    "place_id": "322",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=172",
+        "length": "6",
+        "description": "Santa Teresa Park features 6 miles of hiking trails near San Jose, CA.",
+        "name": "Santa Teresa Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945765"
+      }
+    }
+  },
+  "332": {
+    "name": "Upper Bidwell Park",
+    "city": "Chico",
+    "state": "California",
+    "country": "United States",
+    "description": "Upper Bidwell Park features 11 miles of hiking trails near Chico, CA.",
+    "directions": "Traveling north on Hwy 99, exit Hwy 32 in the Chico area and drive east about 1 1\/2 miles  to Bruce Rd. Turn left on Bruce road. Drive north on Bruce Rd.( which turns into Manzanita Ave.) for about 2 1\/4 miles and turn right on Wildwood Ave. There will be a Fire Station on the corner. Turn right (or east) on Wildwood Ave. and you will be facing all of Upper Park trails. Trail head parking is at the first left dirt road, more like a 1\/8 mile driveway. If you drive to the end of the paved road there is more parking and more choices of trails. From here the pavement turns to a gravel road up the middle of the park, sometimes closed to motorised vehicles. All the trails open to cyclist are on the north side of this road. The trail next to the creek, the Yahae(sp) Trail is for foot traffic only, please. Upper Park is between two ridges so it's hard to get lost, just ride down hill till you find the dirt road and follow it down to the parking lots.",
+    "lat": "39.7675",
+    "lon": "-121.7904",
+    "parent_id": "0",
+    "place_id": "332",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=154",
+        "length": "11",
+        "description": "Upper Bidwell Park features 11 miles of hiking trails near Chico, CA.",
+        "name": "Upper Bidwell Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "11"
+        },
+        "place_activity_id": "945747"
+      }
+    }
+  },
+  "337": {
+    "name": "Salmon Falls\/Sweetwater Loop",
+    "city": "Sacramento",
+    "state": "California",
+    "country": "United States",
+    "description": "Salmon Falls\/Sweetwater Loop features 8 miles of hiking trails near Sacramento, CA.",
+    "directions": "Take Hwy 50 east from Sacramento, exit at Folsom Blvd exit, and turn left on Folsom Blvd. Continue on Folsom Blvd to Green Valley Rd. Turn right on Green Valley Rd. Stay on Green Valley Rd until Salmon Falls Rd. Turn Left on Salmon Falls, continue on Salmon Falls Rd for 3 or 4 miles, Trailhead is on a sharp left hand turn, on the left side. If you get to the Salmon Falls Bridge, you went to far. Parking is in a little parking area, or alongside of the road. Alternately you can continue up the road and park in the SRA parking, and start the trail from that side.&lt;br \/&gt;",
+    "lat": "38.7217",
+    "lon": "-121.1718",
+    "parent_id": "0",
+    "place_id": "337",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=308",
+        "length": "8",
+        "description": "Salmon Falls\/Sweetwater Loop features 8 miles of hiking trails near Sacramento, CA.",
+        "name": "Salmon Falls\/Sweetwater Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "945897"
+      }
+    }
+  },
+  "342": {
+    "name": "Gabrielino Trail",
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "United States",
+    "description": "Gabrielino Trail features 15 miles of hiking trails near Los Angeles, CA.",
+    "directions": "Use a shuttle.  Then the trail is only downhill.&lt;br \/&gt;&lt;br \/&gt;For the first car: From I-210 take the Winsdor\\Arroyo exit near the city of La Canada and go north to the large parking area on left side about 1\/2 mile up. leave one car here. &lt;br \/&gt;&lt;br \/&gt;In second car get back on 210 west in about 3 mi. exit Angeles Crest Highway 2, make left and proceed up (staying right with junction to Angeles Forest Highway at 11 mi.) proceed another 5mi to Red Box ranger station where you make right and another immediate right into the parking area. &lt;br \/&gt;",
+    "lat": "34.2675",
+    "lon": "-118.1456",
+    "parent_id": "0",
+    "place_id": "342",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=700",
+        "length": "15",
+        "description": "Gabrielino Trail features 15 miles of hiking trails near Los Angeles, CA.",
+        "name": "Gabrielino Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "15"
+        },
+        "place_activity_id": "946274"
+      }
+    }
+  },
+  "351": {
+    "name": "Emigrant Trail",
+    "city": "Truckee",
+    "state": "California",
+    "country": "United States",
+    "description": "Emigrant Trail features 20 miles of hiking trails near Truckee, CA.",
+    "directions": "As you drive to the trailhead on CA-89, you will pass the Donner Encampment historical site. You can ride from the historical site parking area, but the most popular trailhead is just past the Prosser Creek bridge on CA-89, north of Truckee. If you reach Hobart Mills Road, you've gone too far.",
+    "lat": "39.3972",
+    "lon": "-120.1872",
+    "parent_id": "0",
+    "place_id": "351",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=113",
+        "length": "20",
+        "description": "Emigrant Trail features 20 miles of hiking trails near Truckee, CA.",
+        "name": "Emigrant Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "20"
+        },
+        "place_activity_id": "945707"
+      }
+    }
+  },
+  "352": {
+    "name": "Los Posadas",
+    "city": "Angwin",
+    "state": "California",
+    "country": "United States",
+    "description": "Los Posadas features 15 miles of hiking trails near Angwin, CA.",
+    "directions": "Drive North on highway 29 from Napa, through St. Helena,Turn Right on Deer Park Rd. Go straight through 4 way stop sign continue straight to Angwin through twisty roads, turn right on Cold Springs Rd, go straight through stop sign. The road becomes Los Posadas rd. Trail head is a small dirt parking area. ",
+    "lat": "38.5693",
+    "lon": "-122.4237",
+    "parent_id": "0",
+    "place_id": "352",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=114",
+        "length": "15",
+        "description": "Los Posadas features 15 miles of hiking trails near Angwin, CA.",
+        "name": "Los Posadas",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "15"
+        },
+        "place_activity_id": "945708"
+      }
+    }
+  },
+  "356": {
+    "name": "Water Dog Lake Park",
+    "city": "Belmont",
+    "state": "California",
+    "country": "United States",
+    "description": "Water Dog Lake Park features 20 miles of hiking trails near Belmont, CA.",
+    "directions": "From U.S. 101, take Ralston Av. west, past El Camino Real and The Alameda de las Pulgas. Just past this last street, keep your eyes open for Lyall Way on the left, just as the road begins to climb. Turn left on Lyall. You will come to a stop sign at Lake Road. Park on the left side of Lyall just past this stop sign. The entrance to Water Dog Lake is at the corner.  A newer (and probably better) place to park is the parking lot at the end of Carlmont Drive. To reach this, turn left on Lake, then right onto Carlmont. Carlmont will dead-end at the parking lot. &lt;br \/&gt;",
+    "lat": "37.5034",
+    "lon": "-122.2988",
+    "parent_id": "0",
+    "place_id": "356",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=107",
+        "length": "20",
+        "description": "Water Dog Lake Park features 20 miles of hiking trails near Belmont, CA.",
+        "name": "Water Dog Lake Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "20"
+        },
+        "place_activity_id": "945701"
+      }
+    }
+  },
+  "358": {
+    "name": "Bolinas Ridge",
+    "city": "Olema",
+    "state": "California",
+    "country": "United States",
+    "description": "Bolinas Ridge features 23 miles of hiking trails near Olema, CA.",
+    "directions": "Take Sir Francis Blvd off of Hwy 101 in San Rafael towards the coast. just passed the Olema 1 mile sign is the park along road.  ",
+    "lat": "38.0461",
+    "lon": "-122.7708",
+    "parent_id": "0",
+    "place_id": "358",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=435",
+        "length": "23",
+        "description": "Bolinas Ridge features 23 miles of hiking trails near Olema, CA.",
+        "name": "Bolinas Ridge",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "23"
+        },
+        "place_activity_id": "946019"
+      }
+    }
+  },
+  "359": {
+    "name": "Lake Alpine Loop",
+    "city": "Bear Valley",
+    "state": "California",
+    "country": "United States",
+    "description": "Lake Alpine Loop features 79 miles of hiking trails near Bear Valley, CA.",
+    "directions": "Hwy 4 to Bear Valley. Stop at the store bike shop get a map book.",
+    "lat": "38.4781",
+    "lon": "-120.0025",
+    "parent_id": "0",
+    "place_id": "359",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=436",
+        "length": "79",
+        "description": "Lake Alpine Loop features 79 miles of hiking trails near Bear Valley, CA.",
+        "name": "Lake Alpine Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "79"
+        },
+        "place_activity_id": "946020"
+      }
+    }
+  },
+  "360": {
+    "name": "Mount St Helena",
+    "city": "Calistoga",
+    "state": "California",
+    "country": "United States",
+    "description": "Mount St Helena features 13 miles of hiking trails near Calistoga, CA.",
+    "directions": "Off of hwy 29 between Calistoga and Middletown There is parking for Robert louis Stevenson Memorial State Park. ",
+    "lat": "38.6643",
+    "lon": "-122.5989",
+    "parent_id": "0",
+    "place_id": "360",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=690",
+        "length": "13",
+        "description": "Mount St Helena features 13 miles of hiking trails near Calistoga, CA.",
+        "name": "Mount St Helena",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "13"
+        },
+        "place_activity_id": "946266"
+      }
+    }
+  },
+  "361": {
+    "name": "Sawtooth Ridge",
+    "city": "Truckee",
+    "state": "California",
+    "country": "United States",
+    "description": "Sawtooth Ridge features 9 miles of hiking trails near Truckee, CA.",
+    "directions": "Take Hwy 267 to Brockway Dr. At the 7-11 on Brockway Dr. turn onto Ponderosa Palisades Rd. Take a right on Silverfir, a left on Thelin. The Forest Service gate will be on your right-hand side, and the trailhead starts 0.2 miles after gate. There are gravel parking lots at each of the intersections of the trail to the 06. And nearby are trails that intersect with the Northstar trail system.",
+    "lat": "39.3108",
+    "lon": "-120.1926",
+    "parent_id": "0",
+    "place_id": "361",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=438",
+        "length": "9",
+        "description": "Sawtooth Ridge features 9 miles of hiking trails near Truckee, CA.",
+        "name": "Sawtooth Ridge",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "946022"
+      }
+    }
+  },
+  "362": {
+    "name": "Hole In The Ground",
+    "city": "Truckee",
+    "state": "California",
+    "country": "United States",
+    "description": "Hole In The Ground features 17 miles of hiking trails near Truckee, CA.",
+    "directions": "Exit Interstate 80 at Soda Springs. From the off-ramp, turn left (north) and then make a quick right after the underpass. Look for a sign board on the left side of the street where a trail intersects this road. This is the END of the ride. To avoid a few miles of road riding, shuttle a car to the Boreal Exit. Park on the road to the north of the freeway.",
+    "lat": "39.3282",
+    "lon": "-120.3893",
+    "parent_id": "0",
+    "place_id": "362",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=106",
+        "length": "17",
+        "description": "Hole In The Ground features 17 miles of hiking trails near Truckee, CA.",
+        "name": "Hole In The Ground",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/Copy-of-776762-R1-06-6A-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "17"
+        },
+        "place_activity_id": "945700"
+      }
+    }
+  },
+  "363": {
+    "name": "De Valle Regional Park",
+    "city": "Livermore",
+    "state": "California",
+    "country": "United States",
+    "description": "De Valle Regional Park features 25 miles of hiking trails near Livermore, CA.",
+    "directions": "Head SE out of Livermore proper on S Livermore Avenue, which turns into Tesla Rd.  Turn right on Mines Rd. and veer right on De Valle Rd. when it splits (about 1 mile).  Follow De Valle into the park (go through ranger gate) and park anywhere in the ample lots.",
+    "lat": "0.0000",
+    "lon": "0.0000",
+    "parent_id": "0",
+    "place_id": "363",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=105",
+        "length": "25",
+        "description": "De Valle Regional Park features 25 miles of hiking trails near Livermore, CA.",
+        "name": "De Valle Regional Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "25"
+        },
+        "place_activity_id": "945699"
+      }
+    }
+  },
+  "364": {
+    "name": "Downieville Downhill",
+    "city": "Downieville",
+    "state": "California",
+    "country": "United States",
+    "description": "Downieville Downhill features 16 miles of hiking trails near Downieville, CA.",
+    "directions": "From Downieville go Hwy 49 North East past Sierra City to Bassetts, turn left go 1 mile turn left over bridge take first right turn follow signs to Packer Saddle-Start. This about 20 or more miles from town, and during the summer season, Coyote Adventures offers shuttles a few times a day right to the start-call them. Do this because the loop is about 35 miles and the road is flat out dangerous to ride on! The views up on top of Packer Saddle are sweeeeeeet! Go down pavement, stay right turns to dirt quickly then look for drop in on left side of dirt road called Butcher Ranch, This trail needs GOOD working brakes and bring lots of the nessessary tools and extra tube, you are out in the boonies here. ",
+    "lat": "39.5604",
+    "lon": "-120.8270",
+    "parent_id": "0",
+    "place_id": "364",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=104",
+        "length": "16",
+        "description": "Downieville Downhill features 16 miles of hiking trails near Downieville, CA.",
+        "name": "Downieville Downhill",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "16"
+        },
+        "place_activity_id": "945698"
+      }
+    }
+  },
+  "366": {
+    "name": "Bullards Barr Trail",
+    "city": "Camptonvile",
+    "state": "California",
+    "country": "United States",
+    "description": "Bullards Barr Trail features 32 miles of hiking trails near Camptonvile, CA.",
+    "directions": "Hwy 49 to Downiville from Nevada City. Left on Marysville road Park at bar\/store.",
+    "lat": "39.4393",
+    "lon": "-121.0775",
+    "parent_id": "0",
+    "place_id": "366",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=439",
+        "length": "32",
+        "description": "Bullards Barr Trail features 32 miles of hiking trails near Camptonvile, CA.",
+        "name": "Bullards Barr Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "32"
+        },
+        "place_activity_id": "946023"
+      }
+    }
+  },
+  "367": {
+    "name": "Morgan Territory",
+    "city": "Livermore",
+    "state": "California",
+    "country": "United States",
+    "description": "Morgan Territory features 20 miles of hiking trails near Livermore, CA.",
+    "directions": "Off I-580 N-Livermore exit head north. Road turns West take the next right heading north again this is Morgan Teritory Road which is steep and narrow. At the top and to the right is parking. Free maps and roam around, hot, dry, steep, did I say steep ",
+    "lat": "37.8185",
+    "lon": "-121.7957",
+    "parent_id": "0",
+    "place_id": "367",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=440",
+        "length": "20",
+        "description": "Morgan Territory features 20 miles of hiking trails near Livermore, CA.",
+        "name": "Morgan Territory",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "20"
+        },
+        "place_activity_id": "946024"
+      }
+    }
+  },
+  "370": {
+    "name": "Yosemite Valley",
+    "city": "Mariposa",
+    "state": "California",
+    "country": "United States",
+    "description": "Yosemite Valley features 7 miles of hiking trails near Mariposa, CA.",
+    "directions": " If you can not find Yosemite ???Park in main valley.",
+    "lat": "37.7388",
+    "lon": "-119.5727",
+    "parent_id": "0",
+    "place_id": "370",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=441",
+        "length": "7",
+        "description": "Yosemite Valley features 7 miles of hiking trails near Mariposa, CA.",
+        "name": "Yosemite Valley",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/yosemite-hike-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "7"
+        },
+        "place_activity_id": "946025"
+      }
+    }
+  },
+  "372": {
+    "name": "De Laveaga",
+    "city": "Santa Cruz",
+    "state": "California",
+    "country": "United States",
+    "description": "De Laveaga features 10 miles of hiking trails near Santa Cruz, CA.",
+    "directions": "In Santa Cruz on Branciforte Drive is Parking",
+    "lat": "36.9932",
+    "lon": "-122.0113",
+    "parent_id": "0",
+    "place_id": "372",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=687",
+        "length": "10",
+        "description": "De Laveaga features 10 miles of hiking trails near Santa Cruz, CA.",
+        "name": "De Laveaga",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946263"
+      }
+    }
+  },
+  "374": {
+    "name": "Pleasanton Ridge Regional Park",
+    "city": "Sunol\/Pleasanton",
+    "state": "California",
+    "country": "United States",
+    "description": "Pleasanton Ridge Regional Park features 20 miles of hiking trails near Sunol\/Pleasanton, CA.",
+    "directions": "Sunol exit off of I-680 West on Castlewood then Left on Foothill Road. Parking is on right. Grab a map",
+    "lat": "37.6149",
+    "lon": "-121.8822",
+    "parent_id": "0",
+    "place_id": "374",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=101",
+        "length": "20",
+        "description": "Pleasanton Ridge Regional Park features 20 miles of hiking trails near Sunol\/Pleasanton, CA.",
+        "name": "Pleasanton Ridge Regional Park",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2013\/03\/photo_005-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "20"
+        },
+        "place_activity_id": "945695"
+      }
+    }
+  },
+  "386": {
+    "name": "Old Flume Trail\/south Yuba Trail",
+    "city": "Nevada City",
+    "state": "California",
+    "country": "United States",
+    "description": "Old Flume Trail\/south Yuba Trail features 10 miles of hiking trails near Nevada City, CA.",
+    "directions": "Out of Nevada City on HWY 49 east on Bloomfield to Lake Vera\/Purdon to Purdon road little over six miles. Parking is limited in lot so find what you can",
+    "lat": "39.3276",
+    "lon": "-121.0465",
+    "parent_id": "0",
+    "place_id": "386",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=97",
+        "length": "10",
+        "description": "Old Flume Trail\/south Yuba Trail features 10 miles of hiking trails near Nevada City, CA.",
+        "name": "Old Flume Trail\/south Yuba Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "945691"
+      }
+    }
+  },
+  "401": {
+    "name": "Mammoth Mountain Resort",
+    "city": "Mammoth Lakes",
+    "state": "California",
+    "country": "United States",
+    "description": "Mammoth Mountain Resort features 80 miles of hiking trails near Mammoth Lakes, CA.",
+    "directions": "It\\'s the Mammoth Mountain Ski Resort in Mammoth Lakes, CA.  Bike trails open in summer months, usually through the end of September.",
+    "lat": "37.6450",
+    "lon": "-119.0019",
+    "parent_id": "0",
+    "place_id": "401",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=458",
+        "length": "80",
+        "description": "Mammoth Mountain Resort features 80 miles of hiking trails near Mammoth Lakes, CA.",
+        "name": "Mammoth Mountain Resort",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "80"
+        },
+        "place_activity_id": "946041"
+      }
+    }
+  },
+  "408": {
+    "name": "Redwood Regional Park",
+    "city": "Castro Valley",
+    "state": "California",
+    "country": "United States",
+    "description": "Redwood Regional Park features 9 miles of hiking trails near Castro Valley, CA.",
+    "directions": "From Castro Valley take Lake Chabot road to Redwood Road north to Pinehurst Road take a right. Park at staging area ",
+    "lat": "37.8315",
+    "lon": "-122.1855",
+    "parent_id": "0",
+    "place_id": "408",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=70",
+        "length": "9",
+        "description": "Redwood Regional Park features 9 miles of hiking trails near Castro Valley, CA.",
+        "name": "Redwood Regional Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945664"
+      }
+    }
+  },
+  "411": {
+    "name": "Tequesquite Arroyo",
+    "city": "Riverside",
+    "state": "California",
+    "country": "United States",
+    "description": "Tequesquite Arroyo features 9 miles of hiking trails near Riverside, CA.",
+    "directions": "There are two trail heads for this area. From the 215, you'll want to exit on Alesandro. Head West of the Fwy. to first light which is Sycamore Canyon Rd. Turn Right (Chevron on corner). There is a trail head which is now along a fence line to a new warehouse. Beware of where you park, I just received a $100 ticket for &quot;Parking on an unpaved parcel&quot;(?)...look around and you can park at one of the new warehouses... The second &quot;Official&quot; parking area is at the Northern end of the trails. Instead of exiting Alasandro, head to the 60 Fwy towards Riverside. Exit Central and head West. After the second light, you'll see a parking area on the left.",
+    "lat": "33.9181",
+    "lon": "-117.3143",
+    "parent_id": "0",
+    "place_id": "411",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=69",
+        "length": "9",
+        "description": "Tequesquite Arroyo features 9 miles of hiking trails near Riverside, CA.",
+        "name": "Tequesquite Arroyo",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945663"
+      }
+    }
+  },
+  "415": {
+    "name": "Briones Regional Park",
+    "city": "Walnut Creek",
+    "state": "California",
+    "country": "United States",
+    "description": "Briones Regional Park features 25 miles of hiking trails near Walnut Creek, CA.",
+    "directions": "HWY 24 take the Orindo exit turn left ontu Camino Pablo then Right on Bear Creek Road. Park in the staging area pay your money",
+    "lat": "37.9262",
+    "lon": "-122.1603",
+    "parent_id": "0",
+    "place_id": "415",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=66",
+        "length": "25",
+        "description": "Briones Regional Park features 25 miles of hiking trails near Walnut Creek, CA.",
+        "name": "Briones Regional Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "25"
+        },
+        "place_activity_id": "945660"
+      }
+    }
+  },
+  "422": {
+    "name": "Sulphur Mountain",
+    "city": "Oak View",
+    "state": "California",
+    "country": "United States",
+    "description": "Sulphur Mountain features 18 miles of hiking trails near Oak View, CA.",
+    "directions": "From the 101 head east on Highway 33 past the point where it turns into a two-lane road. Drive through Casitas Springs and look for the sign for Sulphur Mountain Road. Park along the road before the gate.",
+    "lat": "34.3777",
+    "lon": "-119.2995",
+    "parent_id": "0",
+    "place_id": "422",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=65",
+        "length": "18",
+        "description": "Sulphur Mountain features 18 miles of hiking trails near Oak View, CA.",
+        "name": "Sulphur Mountain",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "18"
+        },
+        "place_activity_id": "945659"
+      }
+    }
+  },
+  "426": {
+    "name": "Big River Bike\/hike\/horse Trail",
+    "city": "Mendocino\/fort Bragg",
+    "state": "California",
+    "country": "United States",
+    "description": "Big River Bike\/hike\/horse Trail features 10 miles of hiking trails near Mendocino\/fort Bragg, CA.",
+    "directions": "From 101 in Willits take HWY20 west to Fort Bragg. Turn left at the HWY20 HWY1 junction untill you reach mendocino. Once you pass the main street exit, the turnoff is on your right (you've missed it if you've goen over the bridge).",
+    "lat": "39.3033",
+    "lon": "-123.7909",
+    "parent_id": "0",
+    "place_id": "426",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=63",
+        "length": "10",
+        "description": "Big River Bike\/hike\/horse Trail features 10 miles of hiking trails near Mendocino\/fort Bragg, CA.",
+        "name": "Big River Bike\/hike\/horse Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "945657"
+      }
+    }
+  },
+  "428": {
+    "name": "Pine Knot Trail",
+    "city": "Big Bear Lake",
+    "state": "California",
+    "country": "United States",
+    "description": "Pine Knot Trail features 5 miles of hiking trails near Big Bear Lake, CA.",
+    "directions": "Start at corner of Big Bear Blvd. &amp; Knickerbocker Rd. ",
+    "lat": "34.2436",
+    "lon": "-116.9098",
+    "parent_id": "0",
+    "place_id": "428",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=61",
+        "length": "5",
+        "description": "Pine Knot Trail features 5 miles of hiking trails near Big Bear Lake, CA.",
+        "name": "Pine Knot Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945655"
+      }
+    }
+  },
+  "433": {
+    "name": "Jughandle Ecological Trail- East Fork",
+    "city": "Fort Bragg",
+    "state": "California",
+    "country": "United States",
+    "description": "Jughandle Ecological Trail- East Fork features 3 miles of hiking trails in Fort Bragg, CA.",
+    "directions": "From Fort Bragg:&lt;br \/&gt;&lt;br \/&gt;Drive south on Hwy 1 Untill you reach gibney lane. Take Gibney all the way to the fork and stay to your right. The trailhead is unmarked by a large house on the right.&lt;br \/&gt;&lt;br \/&gt;From Mendo:&lt;br \/&gt;&lt;br \/&gt;Take Hwy 1 North to gibney Lane. same after that.",
+    "lat": "0.0000",
+    "lon": "0.0000",
+    "parent_id": "0",
+    "place_id": "433",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=49",
+        "length": "3",
+        "description": "Jughandle Ecological Trail- East Fork features 3 miles of hiking trails in Fort Bragg, CA.",
+        "name": "Jughandle Ecological Trail- East Fork",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "3"
+        },
+        "place_activity_id": "945643"
+      }
+    }
+  },
+  "434": {
+    "name": "Howarth Park\/spring Lake",
+    "city": "Santa Rosa",
+    "state": "California",
+    "country": "United States",
+    "description": "Howarth Park\/spring Lake features 5 miles of hiking trails near Santa Rosa, CA.",
+    "directions": "From San Francisco, 101 north to Hwy 12 East exit; head east, cross Farmers Lane, continue to end of street (2miles) to Summerfield Rd. Left on Summerfield. Park entrance is 1\/4 mile.",
+    "lat": "38.4554",
+    "lon": "-122.6570",
+    "parent_id": "0",
+    "place_id": "434",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=477",
+        "length": "5",
+        "description": "Howarth Park\/spring Lake features 5 miles of hiking trails near Santa Rosa, CA.",
+        "name": "Howarth Park\/spring Lake",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "946060"
+      }
+    }
+  },
+  "435": {
+    "name": "Tower",
+    "city": "San Luis Obispo",
+    "state": "California",
+    "country": "United States",
+    "description": "Tower features 2 miles of hiking trails near San Luis Obispo, CA.",
+    "directions": "You start behind san luis obispo high school's baseball field.  Climb up the trail going up the ridge to the top and hang a left.  The trail starts behind the orange tower at the top of the ridge and goes strait down from there.",
+    "lat": "35.2923",
+    "lon": "-120.6436",
+    "parent_id": "0",
+    "place_id": "435",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=479",
+        "length": "2",
+        "description": "Tower features 2 miles of hiking trails near San Luis Obispo, CA.",
+        "name": "Tower",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "2"
+        },
+        "place_activity_id": "946062"
+      }
+    }
+  },
+  "448": {
+    "name": "Hidden Falls Park",
+    "city": "Auburn",
+    "state": "California",
+    "country": "United States",
+    "description": "Hidden Falls Park features 7 miles of hiking trails near Auburn, CA.",
+    "directions": "Hwy 49 in Auburn west on Palm which will turn into Mt Vernon Rd as you cross Nevada street. Follow Mt Vernon till you see the park sign's. Turn north on Meyers road at second park sign",
+    "lat": "38.9102",
+    "lon": "-121.0901",
+    "parent_id": "0",
+    "place_id": "448",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=623",
+        "length": "7",
+        "description": "Hidden Falls Park features 7 miles of hiking trails near Auburn, CA.",
+        "name": "Hidden Falls Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2011\/04\/Brooks-on-the-bench-with-the-pups-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "7"
+        },
+        "place_activity_id": "946202"
+      }
+    }
+  },
+  "450": {
+    "name": "Noble Canyon",
+    "city": "San Diego",
+    "state": "California",
+    "country": "United States",
+    "description": "Noble Canyon features 15 miles of hiking trails near San Diego, CA.",
+    "directions": "For the Laguna - Noble combination ride: From San Diego, take I-8 east to the off ramp for Pine &lt;br \/&gt;Valley. Exit the highway and turn left.  Travel &lt;br \/&gt;north for .3 miles to Old Highway 80.  Turn right and travel about .3 miles and you will see the &lt;br \/&gt;General Store on your left.  Park the shuttle car parking lot.  With the other vehicle, continue on &lt;br \/&gt;east on Old Highway 80 to the intersection on Sunrise Highway.  Turn left and go up the hill.  &lt;br \/&gt;About 1\/2 mile after entering the Laguna Recreation Area you will see a Wildlife Information &lt;br \/&gt;Kiosk off the right side of the road.  Park somewhere along the side of the road here.&lt;br \/&gt;&lt;br \/&gt; To just shuttle Noble Canyon: From San Diego, take I-8 east to the off ramp for Pine Valley. Exit &lt;br \/&gt;the highway and turn left.  Travel north for .3 &lt;br \/&gt;miles to Old Highway 80.  Turn right and travel about .3 miles and you will see the General Store &lt;br \/&gt;on your left.  Park the shuttle car parking lot.  With the other vehicle, continue on east on Old &lt;br \/&gt;Highway 80 to the intersection on Sunrise Highway.  Turn left and go up the hill.  About 6 miles &lt;br \/&gt;after entering the Laguna Recreation Area you will see the Penny Pines\/Noble Canyon trailhead &lt;br \/&gt;parking area.  Park here.&lt;br \/&gt;&lt;br \/&gt; If your are going to climb up from the lower trailhead:   From San Diego, take I-8 east to the off &lt;br \/&gt;ramp for Pine Valley. Exit the highway and turn left.  Travel north for .3 miles to Old Highway 80.  &lt;br \/&gt;Turn left onto Old Highway 80 and travel about 1.2 miles to Pine Creek Road. Turn sharply right &lt;br \/&gt;onto Pine Creek Road and travel 1.6 miles to the trailhead parking on the left. ",
+    "lat": "32.9081",
+    "lon": "-116.4893",
+    "parent_id": "0",
+    "place_id": "450",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=511",
+        "length": "15",
+        "description": "Noble Canyon features 15 miles of hiking trails near San Diego, CA.",
+        "name": "Noble Canyon",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "15"
+        },
+        "place_activity_id": "946094"
+      }
+    }
+  },
+  "453": {
+    "name": "Shaubarum Park",
+    "city": "Rowland Heights",
+    "state": "California",
+    "country": "United States",
+    "description": "Shaubarum Park features 75 miles of hiking trails near Hacienda Heights, CA.",
+    "directions": "Go up Azusu Ave.  And Turn on Colima Rd. into shaubarum Park. than go all the way up the road &lt;br \/&gt;&lt;br \/&gt;and park at the horse stables ",
+    "lat": "33.9658",
+    "lon": "-117.9176",
+    "parent_id": "0",
+    "place_id": "453",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=518",
+        "length": "75",
+        "description": "Shaubarum Park features 75 miles of hiking trails near Hacienda Heights, CA.",
+        "name": "Shaubarum Park",
+        "rank": "0",
+        "rating": "2.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "75"
+        },
+        "place_activity_id": "946100"
+      }
+    }
+  },
+  "499": {
+    "name": "Fullerton Loop",
+    "city": "Fullerton",
+    "state": "California",
+    "country": "United States",
+    "description": "Fullerton Loop features 12 miles of hiking trails near Fullerton, CA.",
+    "directions": "91 Frwy to Harbor Blvd. &amp; go North to Berkely or 57 Frwy to Chapman Ave. Chapman to Harbor Blvd. turn Right (North) take to Berkely. Park behind Union 76 station on NW Corner of Harbor &amp; Berkely. No fees are required, &amp; there's plenty of parking. Look to where Berkely curves around behind the parking lot, &amp; trail head is visible. Thomas Guide page 738 G6 &lt;br \/&gt;&lt;br \/&gt;",
+    "lat": "33.8794",
+    "lon": "-117.9257",
+    "parent_id": "0",
+    "place_id": "499",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=602",
+        "length": "12",
+        "description": "Fullerton Loop features 12 miles of hiking trails near Fullerton, CA.",
+        "name": "Fullerton Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "946182"
+      }
+    }
+  },
+  "503": {
+    "name": "El Moro - Erection Loop",
+    "city": "Newport Beach",
+    "state": "California",
+    "country": "United States",
+    "description": "El Moro - Erection Loop features 8 miles of hiking trails near Newport Beach, CA.",
+    "directions": "from the 73 freeway heading South exit Newport Coast (toll exit) and proceed to the top of the hill. Turn left at Ridge Park Road and go to the top of that hill. You will pass a stop sign, keep going to the Cul-de-sac at the end of the road. ",
+    "lat": "33.6058",
+    "lon": "-117.8017",
+    "parent_id": "0",
+    "place_id": "503",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=560",
+        "length": "8",
+        "description": "El Moro - Erection Loop features 8 miles of hiking trails near Newport Beach, CA.",
+        "name": "El Moro - Erection Loop",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "946139"
+      }
+    }
+  },
+  "504": {
+    "name": "Romero Road",
+    "city": "Santa Barbara",
+    "state": "California",
+    "country": "United States",
+    "description": "Romero Road features 6 miles of hiking trails near Santa Barbara, CA.",
+    "directions": "From Santa Barbara take the 101 fwy south towards Montecito.  Exit Sheffield Drive (note: the exit is on the left side of the freeway).  At bottom of ramp, go left.  At stop sign turn right onto Jameson Ln.  Follow as it curves left, stay left as it turns into Sheffield Dr..  Follow to intersection with E. Valley Rd.\/Rte.192, go left.  Take immediate right onto Romero Canyon Rd.  At &quot;Y&quot; intersection stay right staying on Romero Canyon.  Twist uphill to intersection with Bella Vista.  Go right staying on Romero.  In about 1\/4 mile there will be dirt pullouts on right.  Park here for trailhead.  Ride a couple hundred feet, crossing a seasonal stream across the road, trailhead on left.  ",
+    "lat": "34.4530",
+    "lon": "-119.5906",
+    "parent_id": "0",
+    "place_id": "504",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=641",
+        "length": "6",
+        "description": "Romero Road features 6 miles of hiking trails near Santa Barbara, CA.",
+        "name": "Romero Road",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "946219"
+      }
+    }
+  },
+  "506": {
+    "name": "Chantry Flats",
+    "city": "Arcadia",
+    "state": "California",
+    "country": "United States",
+    "description": "Chantry Flats features 11 miles of hiking trails near Arcadia, CA.",
+    "directions": " 210 freeway exit Santa Anita follow Santa Anita all the way to the Picnic Area you will find the &lt;br \/&gt;&lt;br \/&gt;trailhead from there",
+    "lat": "34.1964",
+    "lon": "-118.0239",
+    "parent_id": "0",
+    "place_id": "506",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=646",
+        "length": "11",
+        "description": "Chantry Flats features 11 miles of hiking trails near Arcadia, CA.",
+        "name": "Chantry Flats",
+        "rank": "0",
+        "rating": "4.67",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2010\/03\/100_0559-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "11"
+        },
+        "place_activity_id": "946224"
+      }
+    }
+  },
+  "508": {
+    "name": "Santiago Oaks",
+    "city": "Orange",
+    "state": "California",
+    "country": "United States",
+    "description": "Santiago Oaks features 12 miles of hiking trails near Orange, CA.",
+    "directions": "Park at the Albertson's lot on the corner of Jamboree and Chapman",
+    "lat": "33.7913",
+    "lon": "-117.7620",
+    "parent_id": "0",
+    "place_id": "508",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=574",
+        "length": "12",
+        "description": "Santiago Oaks features 12 miles of hiking trails near Orange, CA.",
+        "name": "Santiago Oaks",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "946153"
+      }
+    }
+  },
+  "517": {
+    "name": "Peters Canyon",
+    "city": "Orange",
+    "state": "California",
+    "country": "United States",
+    "description": "Peters Canyon features 5 miles of hiking trails near Orange, CA.",
+    "directions": "From the 55 freeway take Chapman east, Turn right one Newport, then left on Canyon View the parking area will be on the right. It costs 2 bucks to park. ",
+    "lat": "33.7845",
+    "lon": "-117.7624",
+    "parent_id": "0",
+    "place_id": "517",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=576",
+        "length": "5",
+        "description": "Peters Canyon features 5 miles of hiking trails near Orange, CA.",
+        "name": "Peters Canyon",
+        "rank": "0",
+        "rating": "1.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "946155"
+      }
+    }
+  },
+  "520": {
+    "name": "Simpson Park",
+    "city": "Hemet",
+    "state": "California",
+    "country": "United States",
+    "description": "Simpson Park features 10 miles of hiking trails near Hemet, CA.",
+    "directions": "Headed East on Hwy 74, turn right at San Jacinto Street, left at Stetson Avenue, right at Cornell, left at Crest Drive, right at Vista del Valle, right on Rawlings Road.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http:\/\/maps.google.com\/maps?daddr=33.702793,-116.918757&amp;h1=en&quot;&gt;Click here for Google Map&lt;\/a&gt;",
+    "lat": "33.7028",
+    "lon": "-116.9188",
+    "parent_id": "0",
+    "place_id": "520",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=577",
+        "length": "10",
+        "description": "Simpson Park features 10 miles of hiking trails near Hemet, CA.",
+        "name": "Simpson Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/02\/577-1234932609.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "10"
+        },
+        "place_activity_id": "946156"
+      }
+    }
+  },
+  "684": {
+    "name": "Apex Park",
+    "city": "Golden",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Apex Trail is in the Jefferson County trail system, and the eastern access is in the City of Golden. The trail is 2.3 miles long gaining up to 1,500 feet in elevation. There are exposed steep trails at time with views of Denver and Golden. &lt;br \/&gt;<br \/>Apex Park also features the Enchanted Forest Loop, at 5.6 miles round-trip, which features gentle slopes and scenic views of the forest. The Pick N' Sledge loop is also available, at 4.4 miles, but it is mainly used as a mountain bike trail.&lt;br \/&gt;<br \/>These trails are multi-use so please practice caution.",
+    "directions": "From the I-25 and 6th Ave. intersection in Denver, go west on 6th. As you get close to the foothills, you will drive under I-70.After the underpass, take your first left at the stoplight.You will be turning onto Hwy. 40. Drive on 40 for about a mile.  Pull into the Heritage Square parking lot on your right, and park on the north side next to the trailhead.",
+    "lat": "39.7165",
+    "lon": "-105.2092",
+    "parent_id": "0",
+    "place_id": "684",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=300",
+        "length": "8",
+        "description": "Apex Trail is in the Jefferson County trail system, and the eastern access is in the City of Golden. The trail is 2.3 miles long gaining up to 1,500 feet in elevation. There are exposed steep trails at time with views of Denver and Golden. &lt;br \/&gt;<br \/>Apex Park also features the Enchanted Forest Loop, at 5.6 miles round-trip, which features gentle slopes and scenic views of the forest. The Pick N' Sledge loop is also available, at 4.4 miles, but it is mainly used as a mountain bike trail.&lt;br \/&gt;<br \/>These trails are multi-use so please practice caution.",
+        "name": "Apex Park",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_0544-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "8"
+        },
+        "place_activity_id": "945889"
+      }
+    }
+  },
+  "685": {
+    "name": "Bear Creek Regional Park",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Bear Creek Regional Park is an extremely popular park, mainly for its stellar dog parks, with 3 miles covering a total of 575 acres. There are some walking paths that wind throughout the park for visitors to enjoy.",
+    "directions": "From I-25, exit at US 24 West, Cimmaron St. Head west. At the second stoplight (21st St.), turn left.The trail is on the right after the big hill. Parking is available on the right.",
+    "lat": "38.8251",
+    "lon": "-104.8597",
+    "parent_id": "0",
+    "place_id": "685",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=281",
+        "length": "2",
+        "description": "Bear Creek Regional Park is an extremely popular park, mainly for its stellar dog parks, with 3 miles covering a total of 575 acres. There are some walking paths that wind throughout the park for visitors to enjoy.",
+        "name": "Bear Creek Regional Park",
+        "rank": "0",
+        "rating": "5.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "2"
+        },
+        "place_activity_id": "945872"
+      }
+    }
+  },
+  "686": {
+    "name": "Black Forest Regional Park",
+    "city": "Black Forest",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "This park includes 427 acres and is located approximately four miles east of Interstate 25 on Shoup Road.  As suggested by its name, the character of Black Forest Park is dominated by the presence of the ponderosa pine forest.&lt;br \/&gt;<br \/>The developed area, with turf playfields, tennis courts and two picnic pavilions, were developed in natural openings of the forest.  A six mile, loop trail used for non-motorized recreation winds through the park.",
+    "directions": "From Colorado Springs, take Black Forest Road north into the Black Forest.  Turn left onto Shoup Rd. at the second light you see.  The park is on the right about 2 miles down Shoup.",
+    "lat": "39.0136",
+    "lon": "-104.7379",
+    "parent_id": "0",
+    "place_id": "686",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=282",
+        "length": "6",
+        "description": "This park includes 427 acres and is located approximately four miles east of Interstate 25 on Shoup Road.  As suggested by its name, the character of Black Forest Park is dominated by the presence of the ponderosa pine forest.&lt;br \/&gt;<br \/>The developed area, with turf playfields, tennis courts and two picnic pavilions, were developed in natural openings of the forest.  A six mile, loop trail used for non-motorized recreation winds through the park.",
+        "name": "Black Forest Regional Park",
+        "rank": "0",
+        "rating": "3.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945873"
+      }
+    }
+  },
+  "687": {
+    "name": "Blodgett Peak",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Blodgett Peak hiking trail leads steeply up the mountain to a relatively-low elevation peak. However, the views from the top make the climb worth it, as it gives panoramic views of nearby Pikes Peak and the United States Air Force Academy.",
+    "directions": "From I-25 take Woodmen Rd exit (149) and head west. Cross bridge over train-tracks. At next light Woodmen turns to the right, follow it. Stay on Woodmen for several miles (5 or so) as it passes a school on the left. At stop sign continue straight as it winds through sub-divisions. Woodmen gains in altitute as it head west and then it starts to run parallel to the range. On your right you will see a fire-road with a gate, a small sign identifies it as Blodget Open Space. Pull in and park or park on the street. ",
+    "lat": "38.9489",
+    "lon": "-104.8861",
+    "parent_id": "0",
+    "place_id": "687",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=280",
+        "length": "3",
+        "description": "Blodgett Peak hiking trail leads steeply up the mountain to a relatively-low elevation peak. However, the views from the top make the climb worth it, as it gives panoramic views of nearby Pikes Peak and the United States Air Force Academy.",
+        "name": "Blodgett Peak",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/02\/280-1223987490.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "3"
+        },
+        "place_activity_id": "945871"
+      }
+    }
+  },
+  "688": {
+    "name": "Captain Jack's",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "The trailhead is directly east of Tunnel #1 at the multi-use trail sign. The Captain Jacks Trail system is a multi-use system that allows hikers, bicyclists, equestrians, and motorcycles. For those who are up for a real challenge, the Captain Jacks Trail joins with the Jones Park Trail at the saddle behind Mt. Buckhorn, and the trail continues for another 2.4 miles to Jones Park.",
+    "directions": "From Colorado Springs, take W. Cheyenne Blvd. west (access from I-25 via exit 140A [US 25 S] - right onto Ramona, turns into W Cheyenne Blvd.)  Go almost to Seven Falls - just before Seven Falls, turn right into North Cheyenne Canyon.  Continue into the park, past Helen Hunt Falls until the pavement ends (approx. 2 miles).  Park at the parking lot here.  Trail starts up High Drive.",
+    "lat": "38.7991",
+    "lon": "-104.8835",
+    "parent_id": "0",
+    "place_id": "688",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=277",
+        "length": "5",
+        "description": "The trailhead is directly east of Tunnel #1 at the multi-use trail sign. The Captain Jacks Trail system is a multi-use system that allows hikers, bicyclists, equestrians, and motorcycles. For those who are up for a real challenge, the Captain Jacks Trail joins with the Jones Park Trail at the saddle behind Mt. Buckhorn, and the trail continues for another 2.4 miles to Jones Park.",
+        "name": "Captain Jack's",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/04\/IMG_1019-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945868"
+      }
+    }
+  },
+  "689": {
+    "name": "Garden of the Gods",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "There are numerous trails to hike at Garden of the Gods. Some of them are paved and crowded with tourists, and some of them are narrow singletrack that's more remote. <br \/><br \/>I have visited many natural places, and Garden of the Gods is close to the top of my lists of most beautiful places of all time! You have to experience the grandeur of these sandstone rocks!<br \/><br \/>Garden of the Gods is also very popular as a rock climbing and bouldering destination.",
+    "directions": "From I-25, exit at Garden of the Gods Rd.  Head West of G.O.D.G. Rd. and follow the signs to the visitor's center.  Park here and ride down under the highway into the park.  At the stop signed intersection in the park, trail starts on the left side of the road.  Signs for Ute trail.",
+    "lat": "38.8770",
+    "lon": "-104.8778",
+    "parent_id": "0",
+    "place_id": "689",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=278",
+        "length": "15",
+        "description": "There are numerous trails to hike at Garden of the Gods. Some of them are paved and crowded with tourists, and some of them are narrow singletrack that's more remote. <br \/><br \/>I have visited many natural places, and Garden of the Gods is close to the top of my lists of most beautiful places of all time! You have to experience the grandeur of these sandstone rocks!<br \/><br \/>Garden of the Gods is also very popular as a rock climbing and bouldering destination.",
+        "name": "Garden of the Gods",
+        "rank": "0",
+        "rating": "4.75",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2011\/09\/n516253446_606202_6025-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "15"
+        },
+        "place_activity_id": "945869"
+      }
+    }
+  },
+  "690": {
+    "name": "Deer Creek Canyon Park",
+    "city": "Littleton",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Deer Creek Canyon Park is defined by its sterling recreation opportunities and golden habitat for wildlife. &lt;br \/&gt;<br \/>Hikers and equestrians have the Meadowlark Homesteader and Golden Eagle Trails all to themselves. On multi-use trails, mountain bikers test their mettle on &quot;The Wall,&quot; a steep section of rocky terrain on Plymouth Creek Trail, and pedal the 2.5-mile Red Mesa Loop. All trail users should be aware of the risk of rattlesnake encounters. &lt;br \/&gt;<br \/>Meadowlark: Hiker only; exposed with great views of parking area, meadows and the south valley; consistent 10 percent grade.&lt;br \/&gt;<br \/>Golden Eagle: Hiker only; scenic view at summit; 3-mile hike to reach trailhead.&lt;br \/&gt;<br \/>Plymouth Creek: Multi-user trail; lush sections; rocky in spots; steep climb west of Meadowlark junction.&lt;br \/&gt;<br \/>Plymouth Mountain: Multi-user trail with scenic views to the east; Steep side slope on north end.&lt;br \/&gt;<br \/>Scenic View: Short, multi-user trail with steep section; beautiful 360-degree summit view.&lt;br \/&gt;<br \/>Homesteader: Hiker only; forested trail with an average 4 percent grade; trail follows canyon rim on the north side.&lt;br \/&gt;<br \/>Red Mesa Loop: Multi-user trail with open view of the canyon and forested section.",
+    "directions": "Go west on W Deer Creek Canyon Rd, which intersects Wadsworth just south of C-470 by Chatfield.  Travel 4 miles to Grizzly Dr and turn left.  Parking lot is on the right about 1\/2 mile up this steep road.",
+    "lat": "39.5431",
+    "lon": "-105.1522",
+    "parent_id": "0",
+    "place_id": "690",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=279",
+        "length": "12",
+        "description": "Deer Creek Canyon Park is defined by its sterling recreation opportunities and golden habitat for wildlife. &lt;br \/&gt;<br \/>Hikers and equestrians have the Meadowlark Homesteader and Golden Eagle Trails all to themselves. On multi-use trails, mountain bikers test their mettle on &quot;The Wall,&quot; a steep section of rocky terrain on Plymouth Creek Trail, and pedal the 2.5-mile Red Mesa Loop. All trail users should be aware of the risk of rattlesnake encounters. &lt;br \/&gt;<br \/>Meadowlark: Hiker only; exposed with great views of parking area, meadows and the south valley; consistent 10 percent grade.&lt;br \/&gt;<br \/>Golden Eagle: Hiker only; scenic view at summit; 3-mile hike to reach trailhead.&lt;br \/&gt;<br \/>Plymouth Creek: Multi-user trail; lush sections; rocky in spots; steep climb west of Meadowlark junction.&lt;br \/&gt;<br \/>Plymouth Mountain: Multi-user trail with scenic views to the east; Steep side slope on north end.&lt;br \/&gt;<br \/>Scenic View: Short, multi-user trail with steep section; beautiful 360-degree summit view.&lt;br \/&gt;<br \/>Homesteader: Hiker only; forested trail with an average 4 percent grade; trail follows canyon rim on the north side.&lt;br \/&gt;<br \/>Red Mesa Loop: Multi-user trail with open view of the canyon and forested section.",
+        "name": "Deer Creek Canyon Park",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2012\/01\/DSC_0047-0.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "945870"
+      }
+    }
+  },
+  "691": {
+    "name": "Falcon Trail",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "This beautiful trail tours the grounds of the US Air Force Academy. The trail traverses wide open prairies and secluded low mountain woods. It's a great place to get some sights in while enjoying nature. &lt;br \/&gt;<br \/>This is a multi-use trail so please be respectful, also expect a possible car search at the gate.",
+    "directions": " I-25 to Northgate of Air Force Academy Non-Military Entrance - Exit 156B. Once you go through security, take your first left onto Stadium Blvd, then a right onto Academy Dr. -- Parking lot at the top of the hill on the right side of the road (near the stadium).",
+    "lat": "38.9740",
+    "lon": "-104.8775",
+    "parent_id": "0",
+    "place_id": "691",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=276",
+        "length": "12",
+        "description": "This beautiful trail tours the grounds of the US Air Force Academy. The trail traverses wide open prairies and secluded low mountain woods. It's a great place to get some sights in while enjoying nature. &lt;br \/&gt;<br \/>This is a multi-use trail so please be respectful, also expect a possible car search at the gate.",
+        "name": "Falcon Trail",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "12"
+        },
+        "place_activity_id": "945867"
+      }
+    }
+  },
+  "692": {
+    "name": "Waterton Canyon",
+    "city": "Littleton",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Strontia Springs Dam is six and one-half miles upstream of the mouth of Waterton Canyon on the South Platte River. Water is diverted from the reservoir into a 3.4 mile-long tunnel under the mountains to the Foothills Water Treatment Plant. Completed in 1983, this dam towers 243 feet above the South Platte streambed, forming a 1.7 mile-long lake with 98 surface acres.",
+    "directions": "From Denver, take 470 west towards littleton.  Exit at Wadsworth Blvd (CO 121).  Go about 4 miles and follow the signs to the park.  Park in the lot on the left.  The trail starts on the opposite side of the road.",
+    "lat": "39.4914",
+    "lon": "-105.0932",
+    "parent_id": "0",
+    "place_id": "692",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=273",
+        "length": "6",
+        "description": "Strontia Springs Dam is six and one-half miles upstream of the mouth of Waterton Canyon on the South Platte River. Water is diverted from the reservoir into a 3.4 mile-long tunnel under the mountains to the Foothills Water Treatment Plant. Completed in 1983, this dam towers 243 feet above the South Platte streambed, forming a 1.7 mile-long lake with 98 surface acres.",
+        "name": "Waterton Canyon",
+        "rank": "0",
+        "rating": "4.50",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "6"
+        },
+        "place_activity_id": "945864"
+      }
+    }
+  },
+  "693": {
+    "name": "Gold Camp Road",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "This out-and-back trail follows gravel roads from Colorado Springs to Cripple Creek. Part of the trail follows an old railroad grade, and it is open to motor-vehicles so you may see some traffic. You'll get to see old tunnels, aspen forests, and beautiful views of the country side.",
+    "directions": "From Colorado Springs, take US 24 West towards Manitou Springs.  Turn left onto 21st Street.  Go about 4 miles and turn right onto W Cheyenne Blvd.  Go about 1.5 miles and turn right into Cheyenne Canyon Park.  Follow the road all the way up to the gravel parking lot (about 2-3 miles).  Park here and follow the dirt road that begins at the back of the parking lot (heading up the hill).",
+    "lat": "38.7904",
+    "lon": "-104.9036",
+    "parent_id": "0",
+    "place_id": "693",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=274",
+        "length": "40",
+        "description": "This out-and-back trail follows gravel roads from Colorado Springs to Cripple Creek. Part of the trail follows an old railroad grade, and it is open to motor-vehicles so you may see some traffic. You'll get to see old tunnels, aspen forests, and beautiful views of the country side.",
+        "name": "Gold Camp Road",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/02\/274-1221500643.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "40"
+        },
+        "place_activity_id": "945865"
+      }
+    }
+  },
+  "694": {
+    "name": "Green Mountain--William Frederick Hayden Park",
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "With more than 2,400 acres of open space, William Frederick Hayden Park on Green Mountain is the second largest park in Lakewood. &lt;br \/&gt;<br \/>The park features a challenging network of multi-use trails. The summit, at 6,800 feet, offers unique and stunning views of the Denver metropolitan area to the east, as well as high mountain peaks to the west.",
+    "directions": "From I-25, take 6th Ave. west. Drive approximately 6 miles to Kipling. Take Kipling south for 2 miles before taking a right on Alameda. Stay on Alameda for 3 miles until you see a parking area on the right. This trail is part of William Frederick Hayden Park.",
+    "lat": "39.6967",
+    "lon": "-105.1922",
+    "parent_id": "0",
+    "place_id": "694",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=275",
+        "length": "7",
+        "description": "With more than 2,400 acres of open space, William Frederick Hayden Park on Green Mountain is the second largest park in Lakewood. &lt;br \/&gt;<br \/>The park features a challenging network of multi-use trails. The summit, at 6,800 feet, offers unique and stunning views of the Denver metropolitan area to the east, as well as high mountain peaks to the west.",
+        "name": "Green Mountain--William Frederick Hayden Park",
+        "rank": "0",
+        "rating": "0.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2009\/02\/275-1223987631.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "7"
+        },
+        "place_activity_id": "945866"
+      }
+    }
+  },
+  "695": {
+    "name": "Lovell Gulch",
+    "city": "Woodland Park",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Lovell Gulch is an nice 5 mile loop trail that has relatively easy climbs but stunningly beautiful views. Hike through dense forests and skirt large granite boulders along the trail. Dive down into some small valleys and then hike along a ridge that showcases Pikes Peak and the Sawatch Range.",
+    "directions": "From Colorado Springs, take I-25 and Hwy 24 West towards Woodland Park.  Once in Woodland Park, turn right at the McDonalds onto Baldwin Rd.  Head straight through several stop signs for about 2 miles.  There will be a sign to turn left into the parking lot for the Lovell Gulch Trailhead, which is adjacent to an animal shelter.",
+    "lat": "39.0130",
+    "lon": "-105.0444",
+    "parent_id": "0",
+    "place_id": "695",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=330",
+        "length": "5",
+        "description": "Lovell Gulch is an nice 5 mile loop trail that has relatively easy climbs but stunningly beautiful views. Hike through dense forests and skirt large granite boulders along the trail. Dive down into some small valleys and then hike along a ridge that showcases Pikes Peak and the Sawatch Range.",
+        "name": "Lovell Gulch",
+        "rank": "0",
+        "rating": "3.00",
+        "thumbnail": "http:\/\/images.tripleblaze.com\/2013\/05\/cdv_photo_002-1.jpg",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "5"
+        },
+        "place_activity_id": "945919"
+      }
+    }
+  },
+  "696": {
+    "name": "Hall Ranch",
+    "city": "Lyons",
+    "state": "Colorado",
+    "country": "United States",
+    "description": "Just west of the town of Lyons, you'll find the rolling grasslands and sandstone buttes of Hall Ranch. The over 3,000 acres of open space provides excellent viewing opportunities for wildflowers, animals, and scenic landscapes. &lt;br \/&gt;<br \/>There are 5 trails ranging from moderate to difficult with the longest trail topping out at 4.7 miles. Dogs are not allowed due to wildlife concerns.",
+    "directions": "From Boulder, take US 36 \/ Foothills Hwy. north toward Lyons. Turn left on Hwy 66, then left on Hwy 7 \/ St. Vrain Rd. in Lyons. Trailhead is on the right.",
+    "lat": "40.2105",
+    "lon": "-105.2880",
+    "parent_id": "0",
+    "place_id": "696",
+    "activities": {
+      "hiking": {
+        "url": "http:\/\/www.tripleblaze.com\/trail.php?c=3&i=272",
+        "length": "9",
+        "description": "Just west of the town of Lyons, you'll find the rolling grasslands and sandstone buttes of Hall Ranch. The over 3,000 acres of open space provides excellent viewing opportunities for wildflowers, animals, and scenic landscapes. &lt;br \/&gt;<br \/>There are 5 trails ranging from moderate to difficult with the longest trail topping out at 4.7 miles. Dogs are not allowed due to wildlife concerns.",
+        "name": "Hall Ranch",
+        "rank": "0",
+        "rating": "4.00",
+        "thumbnail": "",
+        "activity_type": "2",
+        "activity_type_name": "hiking",
+        "attribs": {
+          "length": "9"
+        },
+        "place_activity_id": "945863"
+      }
+    }
+  }
+}
