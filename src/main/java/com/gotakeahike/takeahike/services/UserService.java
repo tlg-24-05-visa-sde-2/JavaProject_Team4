@@ -2,6 +2,7 @@ package com.gotakeahike.takeahike.services;
 
 import com.gotakeahike.takeahike.Exceptions.UserExistException;
 import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
+import com.gotakeahike.takeahike.dto.UserDTO;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,12 +23,15 @@ public class UserService {
         userRepository.save(user);
     }
 
-    public User getUser(Long userId) throws UserNotFoundException {
+    public UserDTO getUser(Long userId) throws UserNotFoundException {
         User user = userRepository.getById(userId);
         if(user == null) {
             throw new UserNotFoundException("Cannot find user with this ID");
         }
+        UserDTO userData = new UserDTO(user.getUsername(), user.getFavoritedTrails());
 
-        return user;
+        System.out.println(user);
+
+        return userData;
     }
 }

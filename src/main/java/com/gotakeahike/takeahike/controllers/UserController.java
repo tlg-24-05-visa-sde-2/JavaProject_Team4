@@ -2,8 +2,11 @@ package com.gotakeahike.takeahike.controllers;
 
 import com.gotakeahike.takeahike.Exceptions.UserExistException;
 import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
+import com.gotakeahike.takeahike.dto.UserDTO;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,19 +15,21 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     private final UserService userService;
 
+    @Autowired
     public UserController(UserService userService) {
         this.userService = userService;
     }
 
-    @PostMapping("/signup/{id}")
-    private ResponseEntity<String> signup(@RequestBody User newUser, @PathVariable Long id) throws UserExistException {
+    @PostMapping("/signup")
+    public ResponseEntity<String> signup(@RequestBody User newUser) throws UserExistException {
         userService.registerUser(newUser);
         return ResponseEntity.ok("User registered successfully");
     }
 
     @GetMapping("/getUser/{id}")
-    private ResponseEntity<User> getUser(@PathVariable Long id) throws UserNotFoundException {
-        User user = userService.getUser(id);
-        return ResponseEntity.ok(user);
+    public ResponseEntity<UserDTO> getUser(@PathVariable Long id) throws UserNotFoundException {
+        UserDTO user = userService.getUser(id);
+        System.out.println("Users username: " + user.getUsername());
+        return ResponseEntity.status(HttpStatus.OK).body(user);
     }
 }
