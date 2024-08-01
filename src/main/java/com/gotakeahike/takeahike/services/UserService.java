@@ -29,7 +29,6 @@ public class UserService {
 
         return userData;
     }
-
     public void saveTrailToUser(TrailDTO trailDTO, Long userid) {
 
     }
