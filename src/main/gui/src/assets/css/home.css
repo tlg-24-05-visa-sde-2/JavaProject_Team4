@@ -2,6 +2,35 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: aquamarine;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.new-trails-button {
+    align-self: flex-end;
+    border-radius: 5px;
+    background-color: green;
+    box-sizing: border-box;
+    margin: 5px;
+    color: white;
+}
+
+.new-trails-button:hover {
+    background-color: darkgreen;
 }
