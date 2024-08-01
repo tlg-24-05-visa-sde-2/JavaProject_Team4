@@ -1,7 +1,7 @@
 package com.gotakeahike.takeahike.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gotakeahike.takeahike.dto.TrailDTO;
+import com.gotakeahike.takeahike.dto.TrailAPIDTO;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.repositories.TrailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +35,7 @@ public class TrailService {
     @Value("${app.trailKey}") // Change this to the actual key with a better name
     private String apiKey;
 
-    public Map<String, TrailDTO> getDataFromApi() throws IOException, InterruptedException {
+    public Map<String, TrailAPIDTO> getDataFromApi() throws IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://trailapi-trailapi.p.rapidapi.com/activity/?q-activities_activity_type_name_eq=hiking"))
                 .header("x-rapidapi-key", apiKey)
@@ -46,7 +46,7 @@ public class TrailService {
 //        System.out.println(response.body());
         ObjectMapper mapper = new ObjectMapper();
         try {
-            Map<String, TrailDTO> trailDetailsMap = mapper.readValue(response.body(), mapper.getTypeFactory().constructMapType(Map.class, String.class, TrailDTO.class));
+            Map<String, TrailAPIDTO> trailDetailsMap = mapper.readValue(response.body(), mapper.getTypeFactory().constructMapType(Map.class, String.class, TrailAPIDTO.class));
 //            System.out.println(trailDetailsMap);
             return trailDetailsMap;
         } catch (IOException e) {

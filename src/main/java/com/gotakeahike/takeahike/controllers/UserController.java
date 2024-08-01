@@ -1,8 +1,9 @@
 package com.gotakeahike.takeahike.controllers;
 
 import com.gotakeahike.takeahike.Exceptions.UserExistException;
-import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
 import com.gotakeahike.takeahike.dto.LoginDTO;
+import com.gotakeahike.takeahike.dto.TrailAPIDTO;
+import com.gotakeahike.takeahike.dto.TrailDTO;
 import com.gotakeahike.takeahike.dto.UserDTO;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.services.JwtTokenProvider;
@@ -12,7 +13,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -45,5 +45,14 @@ public class UserController {
         UserDTO user = userService.getUser(userId);
 
         return ResponseEntity.status(HttpStatus.OK).body(user);
+    }
+
+    @PostMapping("/saveTrail")
+    private ResponseEntity<String> saveTrail(@RequestBody TrailDTO trailDTO, @CookieValue("HikeCookie") String jwtToken) throws Exception {
+        JwtTokenProvider.validateToken(jwtToken);
+        Long userId = JwtTokenProvider.extractUserId(jwtToken);
+
+        userService.saveTrailToUser(trailDTO, userId);
+        return ResponseEntity.status(HttpStatus.OK).body("Successfully saved trail to user");
     }
 }

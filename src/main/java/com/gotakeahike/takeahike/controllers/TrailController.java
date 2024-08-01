@@ -1,6 +1,6 @@
 package com.gotakeahike.takeahike.controllers;
 
-import com.gotakeahike.takeahike.dto.TrailDTO;
+import com.gotakeahike.takeahike.dto.TrailAPIDTO;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.services.JwtTokenProvider;
 import com.gotakeahike.takeahike.services.TrailService;
@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.net.http.HttpResponse;
 import java.util.List;
 import java.util.Map;
 
@@ -58,7 +57,8 @@ public class TrailController {
 
     @GetMapping("/getAllHikingTrails")
     public ResponseEntity<?> getAllApiTrails() throws IOException, InterruptedException {
-          Map<String,TrailDTO> trailData  = trailService.getDataFromApi();
+          Map<String, TrailAPIDTO> trailData  = trailService.getDataFromApi();
           return ResponseEntity.status(HttpStatus.OK).body(trailData);
     }
+
 }
