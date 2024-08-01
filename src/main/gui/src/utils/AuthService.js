@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 class AuthService {
   static async handleLogin(data) {
     // Update the URL to go to your server OR handle you login's logic here
@@ -31,10 +32,13 @@ class AuthService {
       body: bodyJsonData,
     });
 
-    const res = await response.json();
-    console.log(res);
-
-    return res;
+    const res = await response.text();
+    if(response.status === 200) {
+      return true;
+    } else {
+      toast.error(res);
+      return false;
+    }
   }
 
   static async checkLogin() {
