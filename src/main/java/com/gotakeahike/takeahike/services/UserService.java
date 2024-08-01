@@ -2,8 +2,6 @@ package com.gotakeahike.takeahike.services;
 
 import com.gotakeahike.takeahike.Exceptions.TrailNotFoundException;
 import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
-import com.gotakeahike.takeahike.dto.LoginDTO;
-import com.gotakeahike.takeahike.dto.TrailAPIDTO;
 import com.gotakeahike.takeahike.dto.TrailDTO;
 import com.gotakeahike.takeahike.dto.UserDTO;
 import com.gotakeahike.takeahike.models.Experience;
@@ -27,15 +25,11 @@ public class UserService {
     }
 
     public UserDTO getUser(Long userId) throws UserNotFoundException {
-        User user = userRepository.getById(userId);
-        if (user == null) {
-            throw new UserNotFoundException("Cannot find user with this ID");
-        }
-
+        System.out.println("UserRepository: " + userRepository);  // Debugging output
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new UserNotFoundException("Cannot find user with this ID"));
         UserDTO userData = new UserDTO(user.getId(), user.getUsername(), user.getFavoritedTrails());
-
-        System.out.println(user);
-
+        System.out.println("User: " + user);
         return userData;
     }
 
