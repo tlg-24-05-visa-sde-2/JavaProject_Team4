@@ -1,6 +1,8 @@
 package com.gotakeahike.takeahike.controllers;
 
+import com.gotakeahike.takeahike.Exceptions.TrailNotFoundException;
 import com.gotakeahike.takeahike.Exceptions.UserExistException;
+import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
 import com.gotakeahike.takeahike.dto.LoginDTO;
 import com.gotakeahike.takeahike.dto.TrailAPIDTO;
 import com.gotakeahike.takeahike.dto.TrailDTO;
@@ -45,5 +47,14 @@ public class UserController {
 
         userService.saveTrailToUser(trailDTO, userId);
         return ResponseEntity.status(HttpStatus.OK).body("Successfully saved trail to user");
+    }
+
+    @DeleteMapping("/removeTrail/{trailId}")
+    private ResponseEntity<String> removeTrail(@PathVariable Long trailId, @CookieValue("HikeCookie") String jwtToken) throws Exception {
+        JwtTokenProvider.validateToken(jwtToken);
+        Long userId = JwtTokenProvider.extractUserId(jwtToken);
+
+        userService.removeTrailFromUser(trailId, userId);
+        return ResponseEntity.status(HttpStatus.OK).body("Successfully removed trail from user");
     }
 }
