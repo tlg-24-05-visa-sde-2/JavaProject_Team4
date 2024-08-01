@@ -5,7 +5,6 @@ import com.gotakeahike.takeahike.dto.LoginDTO;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.services.AuthService;
 import com.gotakeahike.takeahike.services.JwtTokenProvider;
-import com.gotakeahike.takeahike.services.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +35,6 @@ public class AuthController {
     public AuthController(AuthService authService) {
         this.authService = authService;
     }
-
 
     // User Signup Route
     @PostMapping("/signup") // <-- this is "your-endpoint" from above
@@ -69,6 +67,6 @@ public class AuthController {
         // This will validate the Json web token, if it is invalid, it will throw an Auth Exception.
         // All exceptions are 'punted' to the controller advices in the Exceptions package
         Boolean isLoggedIn = JwtTokenProvider.validateToken(jwtToken);
-        return ResponseEntity.status(HttpStatus.OK).body(isLoggedIn);
+        return ResponseEntity.status(HttpStatus.OK).body(isLoggedIn); // Returns response to the client
     }
 }
