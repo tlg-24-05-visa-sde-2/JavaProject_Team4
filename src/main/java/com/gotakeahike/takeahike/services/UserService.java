@@ -105,7 +105,4 @@ public class UserService {
         // Save the updated user
         userRepository.save(user);
     }
-
-    
-
 }
