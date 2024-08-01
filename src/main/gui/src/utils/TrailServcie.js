@@ -15,6 +15,25 @@ class TrailService {
             return { error: "An error occurred while fetching trail data" };
         }
     }
+
+    static async favoriteTrail(trailData) {
+        const response = await fetch("http://localhost:8080/user/saveTrail", {
+            method: "POST",
+            credentials: "include",
+            headers: {
+                "Content-type": "application/json",
+            },
+            body: JSON.stringify(trailData),
+        });
+
+        const res = await response.text();
+        console.log(res);
+        if(response.status === 200) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
 export default TrailService;
