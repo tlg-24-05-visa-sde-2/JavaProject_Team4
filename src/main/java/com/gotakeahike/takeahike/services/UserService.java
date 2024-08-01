@@ -1,5 +1,6 @@
 package com.gotakeahike.takeahike.services;
 
+import com.gotakeahike.takeahike.Exceptions.TrailNotFoundException;
 import com.gotakeahike.takeahike.Exceptions.UserNotFoundException;
 import com.gotakeahike.takeahike.dto.LoginDTO;
 import com.gotakeahike.takeahike.dto.TrailAPIDTO;
@@ -27,7 +28,7 @@ public class UserService {
 
     public UserDTO getUser(Long userId) throws UserNotFoundException {
         User user = userRepository.getById(userId);
-        if(user == null) {
+        if (user == null) {
             throw new UserNotFoundException("Cannot find user with this ID");
         }
 
@@ -45,9 +46,9 @@ public class UserService {
 
         // Set Experience(Enum)
         Experience experience;
-        if(trailDTO.getTrailLength()<6){
+        if (trailDTO.getTrailLength() < 6) {
             experience = Experience.BEGINNER;
-        } else if (trailDTO.getTrailLength()<12) {
+        } else if (trailDTO.getTrailLength() < 12) {
             experience = Experience.INTERMEDIATE;
         } else {
             experience = Experience.ADVANCED;
@@ -55,7 +56,7 @@ public class UserService {
 
         System.out.println("trail Length " + trailDTO.getTrailLength());
 
-       // Create and save the new Trail
+        // Create and save the new Trail
         Trail trail = new Trail();
         trail.setAppId(trailDTO.getAppId());
         trail.setTrailName(trailDTO.getName());
@@ -70,6 +71,19 @@ public class UserService {
         user.getFavoritedTrails().add(savedTrail);
 
         // Save the updated user
+        userRepository.save(user);
+    }
+
+    public void removeTrailFromUser(Long trailId, Long userId) throws UserNotFoundException, TrailNotFoundException {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new UserNotFoundException("Cannot find user with this ID: " + userId));
+
+        Trail trail = trailRepository.findById(trailId)
+                .orElseThrow(() -> new TrailNotFoundException("Cannot find trail with this ID: " + trailId));
+
+        user.getFavoritedTrails().remove(trail);
+        trailRepository.delete(trail);
+
         userRepository.save(user);
     }
 }
