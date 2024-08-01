@@ -1,0 +1,29 @@
+.new-trails-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trail-card {
+    width: 200px;
+    margin: 1rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
