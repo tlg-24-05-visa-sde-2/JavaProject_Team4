@@ -12,17 +12,17 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Home, Login, Signup, FindTrails } from './pages/index';
 import AuthService from "./utils/AuthService";
+import UserService from "./utils/UserService";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = React.useState(true);
-  console.log(isAuthenticated); // This will log true or false depending on whether the user is logged in or not
-  
+
   React.useEffect(() => {
     AuthService.checkLogin().then((response) => {
       setIsAuthenticated(response);
     });
-  });
-  
+  }, []);
+
   return (
     <Router>
       <ToastContainer theme="colored" autoClose={2000} />
