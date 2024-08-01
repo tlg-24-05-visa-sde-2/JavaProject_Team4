@@ -14,6 +14,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.security.sasl.AuthenticationException;
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * Think about this in terms of your fetch request. In here, we are creating the 'url' endpoints for your 'fetch' request
@@ -21,6 +23,11 @@ import javax.security.sasl.AuthenticationException;
  * USE "http://localhost:8080/auth" to access the routes below from your JavaScript/HTML
  */
 @RestController
+@CrossOrigin(
+        origins = {"http://localhost:3000", "http://localhost:8080"},
+        allowCredentials = "true",
+        exposedHeaders = "*"
+)
 @RequestMapping("/auth") // everything after this will be accessed via "/auth/your-endpoint"
 public class AuthController {
     // DEPENDENCY INJECT THE USER SERVICE
@@ -34,6 +41,8 @@ public class AuthController {
     // User Signup Route
     @PostMapping("/signup") // <-- this is "your-endpoint" from above
     private ResponseEntity<String> signup(@RequestBody User newUser) throws UserExistException {
+        System.out.println("New user username: " + newUser.getUsername());
+        System.out.println("New user password: " + newUser.getPassword());
         authService.registerUser(newUser);
         return ResponseEntity.ok("User registered successfully");
     }
@@ -42,7 +51,9 @@ public class AuthController {
     @PostMapping("/login") // <-- this is "your-endpoint" from above
     private ResponseEntity<?> login(@RequestBody LoginDTO loginDTO, HttpServletRequest request, HttpServletResponse response) {
         authService.login(loginDTO, request, response);
-        return ResponseEntity.status(HttpStatus.OK).body("Successfully logged in");
+        Map<String, String> responseBody = new HashMap<>();
+        responseBody.put("message", "Success");
+        return ResponseEntity.status(HttpStatus.OK).body(responseBody);
     }
 
     // User logout route, yes it does nothing, security config handles it

@@ -16,13 +16,12 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 import "../assets/css/signup.css";
 import AuthService from "../utils/AuthService";
+import { faWindowMinimize } from "@fortawesome/free-regular-svg-icons";
+import { toast } from "react-toastify";
 
 function Signup() {
   // State variable to hold our form data
   const [formState, setFormState] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
     username: "",
     password1: "",
     password2: "",
@@ -43,17 +42,13 @@ function Signup() {
   };
 
   // Choose what to do when the form is submitted!
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     event.stopPropagation();
 
     const data = {
-      firstName: formState.firstName,
-      lastName: formState.lastName,
-      email: formState.email,
       username: formState.username,
-      password1: formState.password1,
-      password2: formState.password2
+      password: formState.password1,
     }
 
     const form = event.currentTarget;
@@ -69,7 +64,14 @@ function Signup() {
 
       // Submit form or perform desired action here
       // Check out the AuthService class to update and/or modify to your desired logic
-      const response = AuthService.handleSignup(data);
+      const response = await AuthService.handleSignup(data);
+
+      if(response.status === 200) {
+        // Redirect to login page or any other page
+        window.location.href = "/login";
+      } else {  
+        toast.error(response.message);
+      }
 
       console.log(response);
     }
@@ -80,62 +82,8 @@ function Signup() {
       <div className="signup-container">
         <h2>Sign Up</h2>
         <Form noValidate validated={validated} onSubmit={handleSubmit} className="text-light">
-          <Row className="mb-3">
-            <Form.Group as={Col} md="6">
-              <Form.Label>First Name</Form.Label>
-              <Form.Control
-                required
-                name="firstName"
-                id="firstName"
-                type="text"
-                placeholder="First name"
-                autoComplete="first-name"
-                onChange={handleInputChange}
-                defaultValue=""
-              />
-              <Form.Control.Feedback type="invalid">
-                Please provide your first name.
-              </Form.Control.Feedback>
-              <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group as={Col} md="6">
-              <Form.Label>Last Name</Form.Label>
-              <Form.Control
-                required
-                name="lastName"
-                id="lastName"
-                type="text"
-                placeholder="Last name"
-                autoComplete="last-name"
-                onChange={handleInputChange}
-                defaultValue=""
-              />
-              <Form.Control.Feedback type="invalid">
-                Please provide your last name.
-              </Form.Control.Feedback>
-              <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-            </Form.Group>
-          </Row>
           <Row className="mb-4">
-            <Form.Group as={Col} md="6">
-              <Form.Label>Email</Form.Label>
-              <InputGroup hasValidation>
-                <Form.Control
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="example@gmail.com"
-                  aria-describedby="inputGroupPrepend"
-                  autoComplete="email"
-                  onChange={handleInputChange}
-                  required
-                />
-                <Form.Control.Feedback type="invalid">
-                  Please provide a valid email.
-                </Form.Control.Feedback>
-              </InputGroup>
-            </Form.Group>
-            <Form.Group as={Col} md="6">
+            <Form.Group as={Col} md="12">
               <Form.Label>Username</Form.Label>
               <InputGroup hasValidation>
                 <Form.Control
@@ -217,32 +165,3 @@ function Signup() {
 }
 
 export default Signup;
-
-
-// Add the following back in if you want to have address information
-
-{
-  /* <Row className="mb-3">
-  <Form.Group as={Col} md="6" controlId="validationCustom03">
-    <Form.Label>City</Form.Label>
-    <Form.Control type="text" placeholder="City" required />
-    <Form.Control.Feedback type="invalid">
-      Please provide a valid city.
-    </Form.Control.Feedback>
-  </Form.Group>
-  <Form.Group as={Col} md="3" controlId="validationCustom04">
-    <Form.Label>State</Form.Label>
-    <Form.Control type="text" placeholder="State" required />
-    <Form.Control.Feedback type="invalid">
-      Please provide a valid state.
-    </Form.Control.Feedback>
-  </Form.Group>
-  <Form.Group as={Col} md="3" controlId="validationCustom05">
-    <Form.Label>Zip</Form.Label>
-    <Form.Control type="text" placeholder="Zip" required />
-    <Form.Control.Feedback type="invalid">
-      Please provide a valid zip.
-    </Form.Control.Feedback>
-  </Form.Group>
-</Row>; */
-}

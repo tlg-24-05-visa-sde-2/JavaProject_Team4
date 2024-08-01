@@ -11,6 +11,7 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import AuthService from "../utils/AuthService";
+import { toast } from "react-toastify";
 
 function Login() {
   // State variable to hold our form data
@@ -40,11 +41,17 @@ function Login() {
     // Handle the rest of the Login functionality here!
     // Change this to whatever your logic may need to be!
     const data = {
-        emailOrUsername: formState.emailOrUsername,
+        username: formState.emailOrUsername,
         password: formState.password
     }
 
     const response = await AuthService.handleLogin(data);
+
+    if(response.message === 'Success') {
+      window.location.replace("/");
+    } else {
+      toast.error(response.message);
+    }
 
     console.log(response);
   };
@@ -61,19 +68,19 @@ function Login() {
         >
           <Col className="mb-4">
             <Form.Group as={Col} md="12" className="mb-2">
-              <Form.Label>Username or Email</Form.Label>
+              <Form.Label>Username</Form.Label>
               <Form.Control
                 required
                 name="emailOrUsername"
                 id="emailOrUsername"
                 type="text"
-                placeholder="example@email.com"
-                autoComplete="example@email.com"
+                placeholder="McLovin"
+                autoComplete="McLovin"
                 onChange={handleInputChange}
                 defaultValue=""
               />
               <Form.Control.Feedback type="invalid">
-                Please provide a Username or Email.
+                Please provide a Username.
               </Form.Control.Feedback>
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
@@ -97,6 +104,7 @@ function Login() {
           </Col>
           <Button type="submit" className="text-center">Login</Button>
         </Form>
+        <p>Don't have an account yet <a href="/signup">signup</a></p>
       </div>
     </div>
   );
