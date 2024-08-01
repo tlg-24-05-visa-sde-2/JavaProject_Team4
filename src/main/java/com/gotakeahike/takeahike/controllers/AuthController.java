@@ -40,7 +40,7 @@ public class AuthController {
 
     // User Signup Route
     @PostMapping("/signup") // <-- this is "your-endpoint" from above
-    private ResponseEntity<String> signup(@RequestBody User newUser) throws UserExistException {
+    private ResponseEntity<String> signup(@RequestBody User newUser) throws UserExistException, IllegalArgumentException {
         System.out.println("New user username: " + newUser.getUsername());
         System.out.println("New user password: " + newUser.getPassword());
         authService.registerUser(newUser);

@@ -29,6 +29,7 @@ public class TrailService {
     }
 
     private final RestTemplate restTemplate;
+
     public TrailService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
@@ -57,8 +58,9 @@ public class TrailService {
         List<Trail> trails = trailRepository.findAll();
         if (trails.isEmpty()) {
             throw new Exception("No trails found");
+        } else {
+            return trails;
         }
-        return trails;
     }
 
 }
