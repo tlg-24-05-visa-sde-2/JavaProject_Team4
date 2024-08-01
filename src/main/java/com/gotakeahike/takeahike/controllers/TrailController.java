@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @CrossOrigin(
-        origins = "http://localhost:3000",
+        origins = {"http://localhost:3000", "http://localhost:8080"},
         allowCredentials = "true",
         exposedHeaders = "*"
 )
@@ -31,7 +31,7 @@ public class TrailController {
     }
 
     @PostMapping("/addTrail")
-    public ResponseEntity<String> addNewTrail(@RequestBody Trail newTrail, @RequestHeader("Authorization") String authorizationHeader) throws Exception {
+    private ResponseEntity<String> addNewTrail(@RequestBody Trail newTrail, @RequestHeader("Authorization") String authorizationHeader) throws Exception {
         try {
             String jwt = authorizationHeader.replace("Bearer ", "");
             JwtTokenProvider.validateToken(jwt);
@@ -46,7 +46,7 @@ public class TrailController {
     }
 
     @GetMapping("/getTrail")
-    public ResponseEntity<List<Trail>> getAllTrails() {
+    private ResponseEntity<List<Trail>> getAllTrails() {
         try {
             List<Trail> trails = trailService.findAllTrails();
             return ResponseEntity.ok(trails);
@@ -60,5 +60,4 @@ public class TrailController {
           Map<String, TrailAPIDTO> trailData  = trailService.getDataFromApi();
           return ResponseEntity.status(HttpStatus.OK).body(trailData);
     }
-
 }

@@ -1,12 +1,17 @@
 import React from "react";
-import "../assets/css/home.css";
 import LoginSignup from "../components/LoginSignup";
+import HomeProfile from "../components/HomeProfile";
+import AuthService from "../utils/AuthService";
+import Header from "../components/Header";
+import "../assets/css/home.css";
 
-function Home() {
+function Home(props) {
+  const isAuthenticated = props.isAuthenticated;
+  
   return (
     <div className="home-wrapper">
-      <h1 className="text-center">Go take a hike!</h1>
-      <LoginSignup />
+      <Header isAuthenticated={isAuthenticated} />
+      {isAuthenticated ? <HomeProfile /> : <LoginSignup />}
     </div>
   );
 }
