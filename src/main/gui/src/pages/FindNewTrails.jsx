@@ -21,9 +21,9 @@ function FindNewTrails(props) {
   const fetchTrails = async () => {
     const res = await TrailService.getTrails();
     if (res && typeof res === "object") {
-      const trailsArray = Object.values(res).map(trail => ({
+      const trailsArray = Object.values(res).map((trail) => ({
         ...trail,
-        imageUrl: images[`image${Math.floor(Math.random() * 15) + 1}`]
+        imageUrl: images[`image${Math.floor(Math.random() * 15) + 1}`],
       }));
       setTrails(trailsArray);
       setIsLoading(false);
@@ -40,15 +40,15 @@ function FindNewTrails(props) {
     console.log(trails);
   }, [trails]);
 
-  function handleAddToFavorites(trail) {
-    console.log("Adding trail to favorites:");
-    
-    const dataToSave = {
-        "appId": trail.place_id,
-        "name": trail.name,
-        "trailLength": trail.activities.hiking.length,
-    }
-}
+//   function handleAddToFavorites(trail) {
+//     console.log("Adding trail to favorites:");
+
+//     const dataToSave = {
+//       appId: trail.place_id,
+//       name: trail.name,
+//       trailLength: trail.activities.hiking.length,
+//     };
+//   }
 
   return (
     <div>
@@ -74,7 +74,12 @@ function FindNewTrails(props) {
                       {trail.city}, {trail.state}, {trail.country}
                     </MDBCardText>
                     <MDBCardText>{trail.description}</MDBCardText>
-                    <MDBBtn href="#" onClick={() => handleAddToFavorites(trail)}>Add To favorites</MDBBtn>
+                    <MDBBtn
+                      href="#"
+                    //   onClick={() => handleAddToFavorites(trail)}
+                    >
+                      Add To favorites
+                    </MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               ))

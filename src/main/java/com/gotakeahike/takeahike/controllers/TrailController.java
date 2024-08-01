@@ -58,6 +58,7 @@ public class TrailController {
     @GetMapping("/getAllHikingTrails")
     public ResponseEntity<?> getAllApiTrails() throws IOException, InterruptedException {
           Map<String, TrailAPIDTO> trailData  = trailService.getDataFromApi();
+          System.out.println(trailData);
           return ResponseEntity.status(HttpStatus.OK).body(trailData);
     }
 }

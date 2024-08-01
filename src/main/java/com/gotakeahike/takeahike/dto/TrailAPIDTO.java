@@ -21,10 +21,10 @@ public class TrailAPIDTO {
     private String lat;
     private String lon;
 
-    @JsonProperty("parent_Id")
+    @JsonProperty("parent_id")
     private String parent_Id;
 
-    @JsonProperty("place_Id")
+    @JsonProperty("place_id")
     private String place_Id;
 
     private Map<String, Activity> activities = new HashMap<>();

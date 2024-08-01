@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.stereotype.Service;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -43,16 +44,13 @@ public class TrailService {
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-//        System.out.println(response.body());
         ObjectMapper mapper = new ObjectMapper();
         try {
-            Map<String, TrailAPIDTO> trailDetailsMap = mapper.readValue(response.body(), mapper.getTypeFactory().constructMapType(Map.class, String.class, TrailAPIDTO.class));
-//            System.out.println(trailDetailsMap);
-            return trailDetailsMap;
+            return mapper.readValue(response.body(), mapper.getTypeFactory().constructMapType(Map.class, String.class, TrailAPIDTO.class));
         } catch (IOException e) {
+            e.printStackTrace();
             throw new IOException(e.getMessage());
         }
-//        return restTemplate.getForObject(response.body() <- this is stirng, YOUR-DTO.class);
     }
 
     public List<Trail> findAllTrails() throws Exception {
