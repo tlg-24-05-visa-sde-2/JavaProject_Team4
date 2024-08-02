@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 /**
  * Service class for managing user-related operations such as retrieving user data,
  * saving trails to users, and removing trails from users.
- *
+ * <p>
  * Annotations:
  * - @Service: Marks this class as a Spring service component, making it eligible for
  *   component scanning and dependency injection.
@@ -50,10 +50,8 @@ public class UserService {
         // Create UserDTO with the user's ID, username, and favorited trails
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new UserNotFoundException("Cannot find user with this ID"));
-      
-        UserDTO userData = new UserDTO(user.getId(), user.getUsername(), user.getFavoritedTrails());
-       
-        return userData;
+
+        return new UserDTO(user.getId(), user.getUsername(), user.getFavoritedTrails());
     }
 
     /**
@@ -99,6 +97,24 @@ public class UserService {
         userRepository.save(user);
     }
 
+    /**
+     * Removes a trail from a user's list of favorited trails and deletes the trail from the repository.
+     * <p>
+     * This method performs the following operations:
+     * <ul>
+     *     <li>Retrieves the {@link User} and {@link Trail} objects based on the provided IDs.</li>
+     *     <li>Removes the specified trail from the user's list of favorited trails.</li>
+     *     <li>Deletes the trail from the {@link Trail} repository.</li>
+     *     <li>Saves the updated {@link User} object to the {@link User} repository.</li>
+     * </ul>
+     * <p>
+     * If the user or trail cannot be found, appropriate exceptions are thrown.
+     *
+     * @param trailId the ID of the trail to be removed
+     * @param userId the ID of the user from whom the trail is to be removed
+     * @throws UserNotFoundException if no user with the given ID is found
+     * @throws TrailNotFoundException if no trail with the given ID is found
+     */
     public void removeTrailFromUser(Long trailId, Long userId) throws UserNotFoundException, TrailNotFoundException {
         // Retrieve the user and trail objects
         User user = userRepository.findById(userId)

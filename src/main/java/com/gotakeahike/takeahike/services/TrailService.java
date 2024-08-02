@@ -1,6 +1,7 @@
 package com.gotakeahike.takeahike.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gotakeahike.takeahike.Exceptions.TrailNotFoundException;
 import com.gotakeahike.takeahike.dto.TrailAPIDTO;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.repositories.TrailRepository;
@@ -26,23 +27,19 @@ import java.util.Map;
  */
 @Service
 public class TrailService {
-    @Autowired
-    private TrailRepository trailRepository;
-
-    private final RestTemplate restTemplate;
-
-    public TrailService(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
-    }
-
     @Value("${app.trailKey}") // Injects the API key from application properties
     private String apiKey;
+    private final TrailRepository trailRepository;
+    @Autowired
+    public TrailService(TrailRepository trailRepository) {
+        this.trailRepository = trailRepository;
+    }
 
     /**
      * Fetches trail data from an external API.
      * Parses the response JSON into a Map where the key is a String and the value is a TrailAPIDTO.
      *
-     * @return Map<String, TrailAPIDTO> - A map of trail data from the API.
+     * @return Map&lt;String, TrailAPIDTO&gt; - A map of trail data from the API.
      * @throws IOException          - If an I/O error occurs while reading the API response.
      * @throws InterruptedException - If the thread is interrupted while waiting for the API response.
      */
@@ -72,13 +69,12 @@ public class TrailService {
      * Retrieves all trails from the database.
      * Throws an exception if no trails are found.
      *
-     * @return List<Trail> - A list of all trails from the database.
-     * @throws Exception - If no trails are found in the database.
+     * @return List&lt;Trail&gt; - A list of all trails from the database.
      */
-    public List<Trail> findAllTrails() throws Exception {
+    public List<Trail> findAllTrails() throws TrailNotFoundException {
         List<Trail> trails = trailRepository.findAll();
         if (trails.isEmpty()) {
-            throw new Exception("No trails found");
+            throw new TrailNotFoundException("No trails found");
         } else {
             return trails;
         }
