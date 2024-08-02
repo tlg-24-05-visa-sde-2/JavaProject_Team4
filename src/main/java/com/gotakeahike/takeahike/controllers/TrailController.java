@@ -13,7 +13,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-/**
+
+/*
  * TrailController handles HTTP requests related to trail operations.
  *
  * This class:
@@ -71,11 +72,10 @@ public class TrailController {
 
     @GetMapping("/getAllHikingTrails")
     public ResponseEntity<?> getAllApiTrails() throws IOException, InterruptedException {
-        // Retrieve hiking trail data from an external API
+          // Retrieve hiking trail data from an external API
           Map<String, TrailAPIDTO> trailData  = trailService.getDataFromApi();
-        // Print the retrieved data to the console
-          System.out.println(trailData);
-        // Return trail data with HTTP status 200 (OK)
+      
+          // Return trail data with HTTP status 200 (OK)
           return ResponseEntity.status(HttpStatus.OK).body(trailData);
     }
 }

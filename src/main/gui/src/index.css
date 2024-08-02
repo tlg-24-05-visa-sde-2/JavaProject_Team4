@@ -9,3 +9,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shutdown-btn {
+  position: fixed; /* Use fixed positioning to keep it in place relative to the viewport */
+  bottom: 10px; /* Position 10px from the bottom */
+  left: 10px; /* Position 10px from the left */
+  margin: 0; /* Remove margin */
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shutdown-btn:hover {
+  background-color: darkred;
+}
+
+.shutdown-page {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #444444 !important;
+}
+
+.custom-card {
+  border: 2px solid red;
+  width: 60%;
+  align-self: center;
+  justify-self: center;
+}

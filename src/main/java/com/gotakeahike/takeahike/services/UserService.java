@@ -47,16 +47,12 @@ public class UserService {
      * @throws UserNotFoundException - If the user with the given ID is not found.
      */
     public UserDTO getUser(Long userId) throws UserNotFoundException {
-        User user = userRepository.getById(userId);
-        if (user == null) {
-            throw new UserNotFoundException("Cannot find user with this ID");
-        }
-
         // Create UserDTO with the user's ID, username, and favorited trails
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new UserNotFoundException("Cannot find user with this ID"));
+      
         UserDTO userData = new UserDTO(user.getId(), user.getUsername(), user.getFavoritedTrails());
-
-        System.out.println(user);
-
+       
         return userData;
     }
 

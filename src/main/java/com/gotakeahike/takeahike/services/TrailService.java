@@ -79,7 +79,8 @@ public class TrailService {
         List<Trail> trails = trailRepository.findAll();
         if (trails.isEmpty()) {
             throw new Exception("No trails found");
+        } else {
+            return trails;
         }
-        return trails;
     }
 }

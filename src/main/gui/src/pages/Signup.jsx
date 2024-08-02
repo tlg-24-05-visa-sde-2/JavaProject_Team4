@@ -66,7 +66,7 @@ function Signup() {
       // Check out the AuthService class to update and/or modify to your desired logic
       const response = await AuthService.handleSignup(data);
 
-      if(response.status === 200) {
+      if(response) {
         // Redirect to login page or any other page
         window.location.href = "/login";
       } else {  

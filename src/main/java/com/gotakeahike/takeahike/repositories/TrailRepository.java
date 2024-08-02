@@ -2,6 +2,7 @@ package com.gotakeahike.takeahike.repositories;
 
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.models.User;
+import lombok.NonNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
@@ -24,12 +25,6 @@ public interface TrailRepository extends JpaRepository<Trail, Long> {
      * @return List<Trail> - A list of Trail entities associated with the specified user.
      */
     List<Trail> findByUser(User userId);
-
-    /**
-     * Retrieves a Trail entity by its ID.
-     *
-     * @param id - The ID of the Trail entity to be retrieved.
-     * @return Trail - The Trail entity with the specified ID.
-     */
-    Trail getById(Long id);
+    @NonNull
+    List<Trail> findAll();
 }
