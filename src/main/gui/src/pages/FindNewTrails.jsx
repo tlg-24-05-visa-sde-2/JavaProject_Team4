@@ -13,6 +13,7 @@ import * as images from "../assets/images/images.js";
 import TrailService from "../utils/TrailServcie";
 import Header from "../components/Header";
 import "../assets/css/newTrails.css";
+import Shutdown from "../components/Shutdown.jsx";
 
 function FindNewTrails(props) {
   const [trails, setTrails] = React.useState([]);
@@ -138,6 +139,7 @@ function FindNewTrails(props) {
           </div>
         )}
       </div>
+      <Shutdown />
     </div>
   );
 }

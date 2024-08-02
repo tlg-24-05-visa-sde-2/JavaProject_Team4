@@ -38,6 +38,7 @@ public class JwtTokenProvider {
 
     private static JwtTokenProvider instance;
 
+    // I know this method looks crazy, to summarize, what this is doing is hashing/encrypting the "secretKey" to meet certain security standards.
     @PostConstruct
     private void init() {
         try {
@@ -75,7 +76,20 @@ public class JwtTokenProvider {
         }
     }
 
-    public static Claims extractClaims(String token) {
+    public static Long extractUserId(String token) {
+        Claims claims = extractClaims(token);
+        System.out.println("Token in claims: " + token);
+        if (claims != null && claims.get("userId") != null) {
+            logger.info("Extracted userId: {}", claims.get("userId"));
+            return Long.parseLong(claims.get("userId").toString());
+        } else {
+            logger.error("UserId claim is missing or null");
+            return null;
+        }
+    }
+
+    // PRIVATE METHODS, ONLY USED HERE
+    private static Claims extractClaims(String token) {
         try {
             Claims claims = Jwts.parser()
                     .setSigningKey(secretKey)
@@ -85,18 +99,6 @@ public class JwtTokenProvider {
             return claims;
         } catch (Exception e) {
             logger.error("Error extracting claims from token: ", e);
-            return null;
-        }
-    }
-
-    public static Long extractUserId(String token) {
-        Claims claims = extractClaims(token);
-        System.out.println("Token in claims: " + token);
-        if (claims != null && claims.get("userId") != null) {
-            logger.info("Extracted userId: {}", claims.get("userId"));
-            return Long.parseLong(claims.get("userId").toString());
-        } else {
-            logger.error("UserId claim is missing or null");
             return null;
         }
     }
