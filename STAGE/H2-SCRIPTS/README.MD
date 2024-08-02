@@ -1,0 +1,1 @@
+This directory contains the .bat file to remove your h2 in memory database. Please be sure to edit the .bat file to add your computers username in the shell script to remove your h2 in memory database. 

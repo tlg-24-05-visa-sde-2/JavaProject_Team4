@@ -1,1 +1,1 @@
-java -jar target/takeahike-0.0.1-SNAPSHOT.jar
+java -jar target/takeahike-v1.0.0.jar
