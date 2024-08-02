@@ -15,16 +15,35 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 import static org.springframework.core.Ordered.HIGHEST_PRECEDENCE;
-import static org.springframework.http.HttpStatus.*;
 
+/**
+ * Global exception handler for the application.
+ * <p>
+ * This class uses {@code @ControllerAdvice} to handle exceptions thrown by controllers
+ * and provide a centralized exception handling mechanism. It ensures consistent error responses
+ * across the application.
+ * </p>
+ */
 @ControllerAdvice
-@Order(HIGHEST_PRECEDENCE) // Ensures that the more severe cases come as a priority
+@Order(HIGHEST_PRECEDENCE) // Ensures that this advice is given the highest priority
 public class ControllerAdvices extends ResponseEntityExceptionHandler {
 
+    /**
+     * Record to hold exception details.
+     *
+     * @param message   the error message
+     * @param httpStatus the HTTP status code
+     * @param timestamp  the timestamp of when the exception occurred
+     */
     private record ExceptionDetails(String message, HttpStatus httpStatus, ZonedDateTime timestamp) {
     }
 
-    // Generic Exceptions that would be caused by and internal error we caused
+    /**
+     * Handles generic exceptions and runtime exceptions.
+     *
+     * @param ex the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception details and HTTP status 500 (Internal Server Error)
+     */
     @ExceptionHandler(value = {
             Exception.class,
             RuntimeException.class,
@@ -35,59 +54,89 @@ public class ControllerAdvices extends ResponseEntityExceptionHandler {
     private ResponseEntity<?> runTimeException(Exception ex) {
         var exceptionDetails = new ExceptionDetails(
                 ex.getMessage(),
-                INTERNAL_SERVER_ERROR,
+                HttpStatus.INTERNAL_SERVER_ERROR,
                 ZonedDateTime.now(ZoneId.of("UTC"))
         );
-        return new ResponseEntity<>(exceptionDetails, INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(exceptionDetails, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    // Custom Exception if a user already exist in our database
+    /**
+     * Handles exceptions where a user already exists.
+     *
+     * @param ex the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception details and HTTP status 400 (Bad Request)
+     */
     @ExceptionHandler(value = UserExistException.class)
     private ResponseEntity<?> userExistException(Exception ex) {
         var exceptionDetails = new ExceptionDetails(
                 ex.getMessage(),
-                BAD_REQUEST,
+                HttpStatus.BAD_REQUEST,
                 ZonedDateTime.now(ZoneId.of("UTC"))
         );
-        return new ResponseEntity<>(exceptionDetails, BAD_REQUEST);
+        return new ResponseEntity<>(exceptionDetails, HttpStatus.BAD_REQUEST);
     }
 
-    // If we throw an auth exception, we want to give an unauthorized status
-    @ExceptionHandler(value = {AuthenticationException.class})
+    /**
+     * Handles authentication exceptions.
+     *
+     * @param e the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception details and HTTP status 401 (Unauthorized)
+     */
+    @ExceptionHandler(value = AuthenticationException.class)
     private ResponseEntity<?> authenticationException(Exception e) {
         var exceptionDetails = new ExceptionDetails(
                 e.getMessage(),
-                UNAUTHORIZED,
+                HttpStatus.UNAUTHORIZED,
                 ZonedDateTime.now(ZoneId.of("UTC"))
         );
-        return new ResponseEntity<>(exceptionDetails, UNAUTHORIZED);
+        return new ResponseEntity<>(exceptionDetails, HttpStatus.UNAUTHORIZED);
     }
 
-    // If we have access denied exception, we want to give the forbidden status (They obv shouldn't be there)
-    @ExceptionHandler(value = {AccessDeniedException.class})
+    /**
+     * Handles access denied exceptions.
+     *
+     * @param e the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception details and HTTP status 403 (Forbidden)
+     */
+    @ExceptionHandler(value = AccessDeniedException.class)
     private ResponseEntity<?> accessDenied(Exception e) {
         var exceptionDetails = new ExceptionDetails(
                 e.getMessage(),
-                FORBIDDEN,
+                HttpStatus.FORBIDDEN,
                 ZonedDateTime.now(ZoneId.of("UTC"))
         );
-        return new ResponseEntity<>(exceptionDetails, FORBIDDEN);
+        return new ResponseEntity<>(exceptionDetails, HttpStatus.FORBIDDEN);
     }
 
-    // Custom Exception for if a user does not exist in the database, return 404 status
-    @ExceptionHandler(value = {UserNotFoundException.class})
+    /**
+     * Handles exceptions where a user is not found.
+     *
+     * @param ex the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception message and HTTP status 404 (Not Found)
+     */
+    @ExceptionHandler(value = UserNotFoundException.class)
     private ResponseEntity<?> userNotFoundException(Exception ex) {
-        return new ResponseEntity<>(ex.getMessage(), NOT_FOUND);
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 
-    // Custom exceptions for Handling Json, this is internal and our fault
-    @ExceptionHandler(value = {JSONException.class})
+    /**
+     * Handles JSON exceptions that occur due to internal faults.
+     *
+     * @param ex the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception message and HTTP status 500 (Internal Server Error)
+     */
+    @ExceptionHandler(value = JSONException.class)
     private ResponseEntity<String> jsonError(Exception ex) {
-        return new ResponseEntity<>(ex.getMessage(), INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    // Exception for illegal arguments, for example provided password length is to short. We want to give the bad-request status
-    @ExceptionHandler(value = {IllegalArgumentException.class})
+    /**
+     * Handles illegal argument exceptions.
+     *
+     * @param ex the exception that was thrown
+     * @return a {@code ResponseEntity} containing the exception message and HTTP status 400 (Bad Request)
+     */
+    @ExceptionHandler(value = IllegalArgumentException.class)
     public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(ex.getMessage());
     }

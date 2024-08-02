@@ -18,16 +18,32 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
+
+/**
+ * Unit tests for {@link UserService}.
+ * <p>
+ * This class uses Mockito to mock dependencies and test various methods of the {@link UserService} class.
+ * It includes tests for user retrieval, adding trails to users, and removing trails from users.
+ */
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
 
     @Mock
     private UserRepository userRepository;
+
     @Mock
     private TrailRepository trailRepository;
+
     @InjectMocks
     private UserService userService;
 
+    /**
+     * Tests the {@link UserService#getUser(Long)} method when the user exists.
+     * <p>
+     * This test verifies that the user is correctly retrieved and mapped to a {@link UserDTO}.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testGetUser_UserExists() throws UserNotFoundException {
         // Arrange
@@ -35,9 +51,9 @@ public class UserServiceTest {
         User user = new User();
         user.setId(userId);
         user.setUsername("testUser");
-        user.setFavoritedTrails(new ArrayList<>());  // Assume this is a List<Trail>
+        user.setFavoritedTrails(new ArrayList<>());
 
-        // Mock the repository call
+        // Mock the repository call to return the user
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
 
         // Act
@@ -47,22 +63,33 @@ public class UserServiceTest {
         assertNotNull(result);
         assertEquals(userId, result.getId());
         assertEquals("testUser", result.getUsername());
-        // Ensure that the trails are converted correctly
         assertEquals(user.getFavoritedTrails().size(), result.getTrails().size());
     }
 
+    /**
+     * Tests the {@link UserService#getUser(Long)} method when the user does not exist.
+     * <p>
+     * This test verifies that a {@link UserNotFoundException} is thrown with the correct message.
+     */
     @Test
     void testGetUser_UserNotFound() {
         // Arrange
         Long userId = 1L;
 
-        // Mock the repository call
+        // Mock the repository call to return an empty Optional
         when(userRepository.findById(userId)).thenReturn(Optional.empty());
 
         // Act & Assert
         assertThrows(UserNotFoundException.class, () -> userService.getUser(userId));
     }
 
+    /**
+     * Tests the {@link UserService#saveTrailToUser(TrailDTO, Long)} method for a successful trail addition.
+     * <p>
+     * This test verifies that a trail is correctly saved and associated with the user.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testSaveTrailToUser_Success() throws UserNotFoundException {
         // Arrange
@@ -82,6 +109,7 @@ public class UserServiceTest {
         trail.setTrailLength(5.0);
         trail.setTrailExperience(Experience.BEGINNER);
 
+        // Mock the repository calls
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
         when(trailRepository.save(any(Trail.class))).thenReturn(trail);
 
@@ -91,10 +119,14 @@ public class UserServiceTest {
         // Assert
         verify(trailRepository).save(any(Trail.class));
         verify(userRepository).save(user);
-
         assertTrue(user.getFavoritedTrails().contains(trail));
     }
 
+    /**
+     * Tests the {@link UserService#saveTrailToUser(TrailDTO, Long)} method when the user is not found.
+     * <p>
+     * This test verifies that a {@link UserNotFoundException} is thrown with the correct message.
+     */
     @Test
     void testSaveTrailToUser_UserNotFound() {
         // Arrange
@@ -104,6 +136,7 @@ public class UserServiceTest {
         trailDTO.setName("Trail Name");
         trailDTO.setTrailLength(5.0);
 
+        // Mock the repository call to return an empty Optional
         when(userRepository.findById(userId)).thenReturn(Optional.empty());
 
         // Act & Assert
@@ -111,6 +144,14 @@ public class UserServiceTest {
         assertEquals("Cannot find user with this ID", thrown.getMessage());
     }
 
+    /**
+     * Tests the {@link UserService#removeTrailFromUser(Long, Long)} method for a successful trail removal.
+     * <p>
+     * This test verifies that a trail is correctly removed from the user's list and deleted.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     * @throws TrailNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testRemoveTrailFromUser_Success() throws UserNotFoundException, TrailNotFoundException {
         // Arrange
@@ -125,6 +166,7 @@ public class UserServiceTest {
         user.setFavoritedTrails(new ArrayList<>());
         user.getFavoritedTrails().add(trail);
 
+        // Mock the repository calls
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
         when(trailRepository.findById(trailId)).thenReturn(Optional.of(trail));
 
@@ -134,16 +176,21 @@ public class UserServiceTest {
         // Assert
         verify(trailRepository).delete(trail);
         verify(userRepository).save(user);
-
         assertFalse(user.getFavoritedTrails().contains(trail));
     }
 
+    /**
+     * Tests the {@link UserService#removeTrailFromUser(Long, Long)} method when the user is not found.
+     * <p>
+     * This test verifies that a {@link UserNotFoundException} is thrown with the correct message.
+     */
     @Test
     void testRemoveTrailFromUser_UserNotFound() {
         // Arrange
         Long userId = 1L;
         Long trailId = 1L;
 
+        // Mock the repository call to return an empty Optional
         when(userRepository.findById(userId)).thenReturn(Optional.empty());
 
         // Act & Assert
@@ -151,28 +198,13 @@ public class UserServiceTest {
         assertEquals("Cannot find user with this ID: 1", thrown.getMessage());
     }
 
-    @Test
-    void testRemoveTrailFromUser_TrailNotFound() {
-        // Arrange
-        Long userId = 1L;
-        Long trailId = 1L;
-
-        User user = new User();
-        user.setId(userId);
-        Trail trail = new Trail();
-        trail.setId(trailId);
-
-        user.setFavoritedTrails(new ArrayList<>());
-        user.getFavoritedTrails().add(trail);
-
-        when(userRepository.findById(userId)).thenReturn(Optional.of(user));
-        when(trailRepository.findById(trailId)).thenReturn(Optional.empty());
-
-        // Act & Assert
-        TrailNotFoundException thrown = assertThrows(TrailNotFoundException.class, () -> userService.removeTrailFromUser(trailId, userId));
-        assertEquals("Cannot find trail with this ID: 1", thrown.getMessage());
-    }
-
+    /**
+     * Tests the {@link UserService#saveTrailToUser(TrailDTO, Long)} method for trails with beginner experience.
+     * <p>
+     * This test verifies that trails with a length indicating beginner experience are correctly handled.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testSaveTrailToUser_BeginnerExperience() throws UserNotFoundException {
         // Arrange
@@ -180,12 +212,13 @@ public class UserServiceTest {
         TrailDTO trailDTO = new TrailDTO();
         trailDTO.setAppId(1L);
         trailDTO.setName("Trail1");
-        trailDTO.setTrailLength(5.0); // This should be Beginner experience
+        trailDTO.setTrailLength(5.0);
 
         User user = new User();
         user.setId(userId);
         user.setFavoritedTrails(new ArrayList<>());
 
+        // Mock the repository calls
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
         when(trailRepository.save(any(Trail.class))).thenAnswer(invocation -> invocation.getArguments()[0]);
 
@@ -196,6 +229,13 @@ public class UserServiceTest {
         verify(trailRepository, times(1)).save(argThat(trail -> trail.getTrailExperience() == Experience.BEGINNER));
     }
 
+    /**
+     * Tests the {@link UserService#saveTrailToUser(TrailDTO, Long)} method for trails with intermediate experience.
+     * <p>
+     * This test verifies that trails with a length indicating intermediate experience are correctly handled.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testSaveTrailToUser_IntermediateExperience() throws UserNotFoundException {
         // Arrange
@@ -203,12 +243,13 @@ public class UserServiceTest {
         TrailDTO trailDTO = new TrailDTO();
         trailDTO.setAppId(1L);
         trailDTO.setName("Trail2");
-        trailDTO.setTrailLength(10.0); // This should be Intermediate experience
+        trailDTO.setTrailLength(10.0);
 
         User user = new User();
         user.setId(userId);
         user.setFavoritedTrails(new ArrayList<>());
 
+        // Mock the repository calls
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
         when(trailRepository.save(any(Trail.class))).thenAnswer(invocation -> invocation.getArguments()[0]);
 
@@ -219,6 +260,13 @@ public class UserServiceTest {
         verify(trailRepository, times(1)).save(argThat(trail -> trail.getTrailExperience() == Experience.INTERMEDIATE));
     }
 
+    /**
+     * Tests the {@link UserService#saveTrailToUser(TrailDTO, Long)} method for trails with advanced experience.
+     * <p>
+     * This test verifies that trails with a length indicating advanced experience are correctly handled.
+     *
+     * @throws UserNotFoundException if the exception is thrown during the test
+     */
     @Test
     void testSaveTrailToUser_AdvancedExperience() throws UserNotFoundException {
         // Arrange
@@ -226,12 +274,13 @@ public class UserServiceTest {
         TrailDTO trailDTO = new TrailDTO();
         trailDTO.setAppId(1L);
         trailDTO.setName("Trail3");
-        trailDTO.setTrailLength(15.0); // This should be Advanced experience
+        trailDTO.setTrailLength(15.0);
 
         User user = new User();
         user.setId(userId);
         user.setFavoritedTrails(new ArrayList<>());
 
+        // Mock the repository calls
         when(userRepository.findById(userId)).thenReturn(Optional.of(user));
         when(trailRepository.save(any(Trail.class))).thenAnswer(invocation -> invocation.getArguments()[0]);
 

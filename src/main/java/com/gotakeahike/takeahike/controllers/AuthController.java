@@ -5,7 +5,6 @@ import com.gotakeahike.takeahike.dto.LoginDTO;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.services.AuthService;
 import com.gotakeahike.takeahike.services.JwtTokenProvider;
-import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,10 +15,16 @@ import javax.security.sasl.AuthenticationException;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
- * Think about this in terms of your fetch request. In here, we are creating the 'url' endpoints for your 'fetch' request
- *
- * USE "http://localhost:8080/auth" to access the routes below from your JavaScript/HTML
+/**
+ * AuthController handles HTTP requests related to authentication operations.
+ * <p>
+ * This class provides endpoints for:
+ * - User signup
+ * - User login
+ * - User logout
+ * - Checking if a user is logged in
+ * <p>
+ * This controller interacts with the AuthService to perform authentication operations.
  */
 @RestController
 @CrossOrigin(
@@ -27,46 +32,78 @@ import java.util.Map;
         allowCredentials = "true",
         exposedHeaders = "*"
 )
-@RequestMapping("/auth") // everything after this will be accessed via "/auth/your-endpoint"
+@RequestMapping("/auth") // Everything after this will be accessed via "/auth/your-endpoint"
 public class AuthController {
-    // DEPENDENCY INJECT THE USER SERVICE
+    // Dependency inject the AuthService
     private final AuthService authService;
+
+    /**
+     * Constructs an AuthController with the provided AuthService.
+     *
+     * @param authService the AuthService to handle authentication operations
+     */
     @Autowired
     public AuthController(AuthService authService) {
         this.authService = authService;
     }
 
-    // User Signup Route
+    /**
+     * User signup route.
+     * <p>
+     * This endpoint handles user registration.
+     *
+     * @param newUser the new user to register
+     * @return a ResponseEntity with a success message
+     * @throws UserExistException if the username already exists
+     * @throws IllegalArgumentException if the password is invalid
+     */
     @PostMapping("/signup") // <-- this is "your-endpoint" from above
     private ResponseEntity<String> signup(@RequestBody User newUser) throws UserExistException, IllegalArgumentException {
-        System.out.println("New user username: " + newUser.getUsername());
-        System.out.println("New user password: " + newUser.getPassword());
         authService.registerUser(newUser);
-        return ResponseEntity.ok("User registered successfully");
+        return ResponseEntity.status(HttpStatus.OK).body("User registered successfully"); // Returns response to the client
     }
 
-    // User Login Route
+    /**
+     * User login route.
+     * <p>
+     * This endpoint handles user login.
+     *
+     * @param loginDTO the login credentials
+     * @param response the HTTP response to add the authentication cookie
+     * @return a ResponseEntity with a success message
+     */
     @PostMapping("/login") // <-- this is "your-endpoint" from above
-    private ResponseEntity<?> login(@RequestBody LoginDTO loginDTO, HttpServletRequest request, HttpServletResponse response) {
-        authService.login(loginDTO, request, response);
+    private ResponseEntity<Map<String, String>> login(@RequestBody LoginDTO loginDTO, HttpServletResponse response) {
+        authService.login(loginDTO, response);                          // Use the auth service to log the user in
         Map<String, String> responseBody = new HashMap<>();
-        responseBody.put("message", "Success");
-        return ResponseEntity.status(HttpStatus.OK).body(responseBody);
+        responseBody.put("message", "Success");                         // This will return JSON to the JavaScript that looks like {"message": "Success"}
+        return ResponseEntity.status(HttpStatus.OK).body(responseBody); // Returns response to the client
     }
 
-    // User logout route, yes it does nothing, security config handles it
-    // but the route must still exist
-    @PostMapping("/logout")
+    /**
+     * User logout route.
+     * <p>
+     * This endpoint handles user logout.
+     *
+     * @return a ResponseEntity with a success message
+     */
+    @PostMapping("/logout") // <-- this is "your-endpoint" from above
     private ResponseEntity<?> logout() {
-        return ResponseEntity.status(HttpStatus.OK).body("Logged out");
+        return ResponseEntity.status(HttpStatus.OK).body("Logged out"); // Returns response to the client
     }
 
-    // Validate user is logged in (for purposes in React)
-    @GetMapping("/isLoggedIn")
+    /**
+     * Validate user is logged in.
+     * <p>
+     * This endpoint checks if a user is logged in by validating the JWT token.
+     *
+     * @param jwtToken the JWT token from the cookie
+     * @return a ResponseEntity with a boolean indicating if the user is logged in
+     * @throws AuthenticationException if the token is invalid
+     */
+    @GetMapping("/isLoggedIn") // <-- this is "your-endpoint" from above
     private ResponseEntity<Boolean> isLoggedIn(@CookieValue("HikeCookie") String jwtToken) throws AuthenticationException {
-        // This will validate the Json web token, if it is invalid, it will throw an Auth Exception.
-        // All exceptions are 'punted' to the controller advices in the Exceptions package
-        Boolean isLoggedIn = JwtTokenProvider.validateToken(jwtToken);
+        Boolean isLoggedIn = JwtTokenProvider.validateToken(jwtToken); // Call the static JwtTokenProvider method to validate the token
         return ResponseEntity.status(HttpStatus.OK).body(isLoggedIn); // Returns response to the client
     }
 }
