@@ -2,6 +2,8 @@
 
 In Spring, a model class represents an entity that is mapped to a database table. It is a key part of the persistence layer in a Spring application, often managed using JPA (Java Persistence API). Here’s an overview of how a model class works and some examples to illustrate its usage.
 
+For more details on annotations, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
+
 ## Model Class Overview
 
 ### Annotations Used

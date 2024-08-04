@@ -2,6 +2,8 @@
 
 In a Spring application, repositories are responsible for handling data access and persistence. They provide an abstraction layer between the application and the underlying database, enabling CRUD operations and more complex queries.
 
+For more details on annotations, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
+
 ## What is a Repository?
 
 A repository in Spring is an interface that extends one of the Spring Data JPA repository interfaces, such as `JpaRepository`. It provides methods for performing operations on entities in the database, such as saving, deleting, and finding records.

@@ -2,6 +2,8 @@
 
 In a Spring application, services play a crucial role in implementing business logic and managing interactions between the web layer (controllers) and the data layer (repositories). They act as a bridge, handling data processing, validation, and business rules.
 
+For more details on annotations, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
+
 ## What is a Service?
 
 A service in Spring is a class marked with the `@Service` annotation. This annotation indicates that the class provides business services and should be managed by the Spring container. Services are typically used to perform operations that involve complex business logic or transactions.

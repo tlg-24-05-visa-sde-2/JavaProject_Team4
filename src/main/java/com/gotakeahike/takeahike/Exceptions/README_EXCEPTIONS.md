@@ -2,6 +2,8 @@
 
 In Spring Framework, `@ControllerAdvice` is used to handle exceptions thrown by controllers across the entire application in a centralized manner. It allows you to manage exception handling globally, making it easier to keep your controller code clean and focused on processing requests.
 
+For more details on annotations, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
+
 ## What is `@ControllerAdvice`?
 
 `@ControllerAdvice` is a specialization of the `@Component` annotation that allows you to define a global exception handler and apply common configurations across multiple controllers. It works by intercepting exceptions thrown by controllers and providing a consistent way to handle them.
