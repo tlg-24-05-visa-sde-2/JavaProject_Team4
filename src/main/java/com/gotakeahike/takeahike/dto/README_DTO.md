@@ -12,7 +12,7 @@ DTOs serve several purposes:
 
 For a comprehensive discussion on DTOs, including their advantages and disadvantages, refer to this [Stack Overflow conversation](https://stackoverflow.com/questions/1051182/what-is-a-data-transfer-object-dto).
 
-For details on annotations used in the examples below, refer to the [Annotations Cheat Sheet](#).
+For details on annotations used in the examples below, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
 
 ## Scenarios for Using DTOs
 While there are many reasons you may find yourself needing a DTO, we are only going to cover a couple of them here.

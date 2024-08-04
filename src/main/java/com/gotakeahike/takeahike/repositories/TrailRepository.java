@@ -3,7 +3,7 @@ package com.gotakeahike.takeahike.repositories;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.models.User;
 import lombok.NonNull;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -16,6 +16,7 @@ import java.util.List;
  * - Extends JpaRepository&lt;Trail, Long&gt;: Provides CRUD operations and additional methods for the Trail entity with Long as the ID type.
  */
 
+@Repository
 public interface TrailRepository extends JpaRepository<Trail, Long> {
 
     /**

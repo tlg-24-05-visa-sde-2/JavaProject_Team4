@@ -2,6 +2,8 @@
 
 This document provides an overview of key Spring configurations, security settings, and common annotations used in a Spring Boot application. It includes explanations and examples to help you understand how these configurations work and how they are applied in practice.
 
+For more details on annotations, refer to the [Annotations Cheat Sheet](../../../../../../../extra-resources/AnnotationsCheatSheet.md).
+
 ## Spring Configuration
 
 Spring configurations are used to define beans, set up application properties, and configure various aspects of the Spring application context.

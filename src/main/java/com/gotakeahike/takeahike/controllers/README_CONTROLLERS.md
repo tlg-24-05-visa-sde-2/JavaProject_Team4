@@ -78,9 +78,7 @@ async function fetchYourJavaProject() {
 }
 ```
 
-
 ## Summary
-
 Controllers in Spring Boot handle HTTP requests and return responses. They interact with services to process business logic and often manage the transformation of data into appropriate formats for the client. The `UserController` is an example of how controllers manage user-specific operations, demonstrating the use of dependency injection, request mapping, and response handling.
 
 For more information on controllers in Spring Boot, refer to the [Spring Framework Documentation](https://spring.io/projects/spring-framework).
