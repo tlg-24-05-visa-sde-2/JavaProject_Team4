@@ -1,1 +1,2 @@
-This directory contains the .bat file to remove your h2 in memory database. Please be sure to edit the .bat file to add your computers username in the shell script to remove your h2 in memory database. 
+This directory contains the command script to remove your h2 database's persistent storage files.
+Please be sure to edit this command script file to add your username in the shell script to remove your h2 in memory database 
