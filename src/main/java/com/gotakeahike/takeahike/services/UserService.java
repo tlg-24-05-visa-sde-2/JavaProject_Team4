@@ -9,8 +9,11 @@ import com.gotakeahike.takeahike.repositories.TrailRepository;
 import com.gotakeahike.takeahike.models.Trail;
 import com.gotakeahike.takeahike.models.User;
 import com.gotakeahike.takeahike.repositories.UserRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * Service class for managing user-related operations such as retrieving user data,
@@ -24,18 +27,30 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
     private final UserRepository userRepository;
-    private final TrailRepository trailRepository;
+
+    /*
+      * When we import TrailService here, it can no longer use User service.
+      *
+      * If you tried to import UserService into TrailService it would create
+      * a "cyclical dependency". Meaning only one, can rely on the other. Generally, the User/UserService will be
+      * the one to have multiple dependencies
+      *
+      * Another note: we use dependency injection for trailService here because
+      * we need to interact with the trail database, however,
+      * we should not have access directly to the "TrailRepository" here in the UserService.
+     */
+    private final TrailService trailService;
 
     /**
      * Constructor to inject dependencies for UserRepository and TrailRepository.
      *
      * @param userRepository - Repository for user data access.
-     * @param trailRepository - Repository for trail data access.
+     * @param trailService - Service for trail data access.
      */
     @Autowired
-    public UserService(UserRepository userRepository, TrailRepository trailRepository) {
+    public UserService(UserRepository userRepository, TrailService trailService) {
         this.userRepository = userRepository;
-        this.trailRepository = trailRepository;
+        this.trailService = trailService;
     }
 
     /**
@@ -62,6 +77,7 @@ public class UserService {
      * @param userId - The ID of the user to whom the trail will be added.
      * @throws UserNotFoundException - If the user with the given ID is not found.
      */
+    @Transactional
     public void saveTrailToUser(TrailDTO trailDTO, Long userId) throws UserNotFoundException {
         // Retrieve the user
         User user = userRepository.findById(userId)
@@ -88,10 +104,10 @@ public class UserService {
 
         trail.setUser(user);
 
-        Trail savedTrail = trailRepository.save(trail);
+        trailService.saveTrail(trail);
 
         // Add the new trail to the user's favorite trails
-        user.getFavoritedTrails().add(savedTrail);
+        user.getFavoritedTrails().add(trail);
 
         // Save the updated user
         userRepository.save(user);
@@ -115,17 +131,17 @@ public class UserService {
      * @throws UserNotFoundException if no user with the given ID is found
      * @throws TrailNotFoundException if no trail with the given ID is found
      */
+    @Transactional
     public void removeTrailFromUser(Long trailId, Long userId) throws UserNotFoundException, TrailNotFoundException {
         // Retrieve the user and trail objects
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new UserNotFoundException("Cannot find user with this ID: " + userId));
 
-        Trail trail = trailRepository.findById(trailId)
-                .orElseThrow(() -> new TrailNotFoundException("Cannot find trail with this ID: " + trailId));
-
         // Remove the trail from the user's list of favorited trails and delete the trail
-        user.getFavoritedTrails().remove(trail);
-        trailRepository.delete(trail);
+        List<Trail> favoritedTrails = user.getFavoritedTrails();
+        favoritedTrails.removeIf(trail -> trail.getId().equals(trailId));
+
+        trailService.removeTrail(trailId);
 
         // Save the updated user
         userRepository.save(user);
