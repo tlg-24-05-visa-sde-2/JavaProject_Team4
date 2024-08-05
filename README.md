@@ -20,6 +20,10 @@
 
 - To test the production build, use the "run.cmd/run.sh" file after running the command above in the terminal.
 
+## Development
+- For developers, once you run the package command from above, the version of the gui you get will always be whatever was present when you packaged. If you are updating the gui, you should `cd` into the gui directory and run the React project on localhost:3001 to see your concurrent changes while you develop. Once satisfied with your changes, run the package command again to update the gui in what will be the jar.
+- NOTE: You do not need node or npm to develop the gui. Once the package command is run, a local copy of Node and NPM will be installed for you. This should stay ignored by Git.
+
 ## Credits
 - Christopher McIntosh
 - Tyler Poepping
