@@ -11,6 +11,10 @@
 ## Installation
 - Unzip the file in your desired location and run the "run.cmd/run.sh" file located in the directory
 
+## Usage
+- For non developers who want to run the application, download the latest release.
+- Extract the file anywhere you want on your machine and double-click the "run.cmd" file if you are on Windows or the "run.sh" if you are on Mac.
+
 ## Packaging
 - In a command prompt or powershell, run the `.\mvnw package` command. This is going to create a production build of the React application and the jarred version of the entire project which encapsulates the React project. We are using maven plugins and including node within the jar so the user does not need to have it installed. You can simply run the java -jar 'our-jar' and it will run the gui with the spring server.
 

@@ -79,4 +79,14 @@ public class TrailService {
             return trails;
         }
     }
+
+    public void removeTrail(Long trailId) throws TrailNotFoundException {
+       Trail trail = trailRepository.findById(trailId)
+               .orElseThrow(() -> new TrailNotFoundException("Cannot find trial with ID of " + trailId)) ;
+       trailRepository.delete(trail);
+    }
+
+    public void saveTrail(Trail trail) {
+        trailRepository.save(trail);
+    }
 }
