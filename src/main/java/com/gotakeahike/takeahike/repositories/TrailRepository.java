@@ -22,10 +22,10 @@ public interface TrailRepository extends JpaRepository<Trail, Long> {
     /**
      * Finds all trails associated with a specific user.
      *
-     * @param userId - The User entity for which trails are to be found.
+     * @param user - The User entity for which trails are to be found.
      * @return List&lt;Trail&gt; - A list of Trail entities associated with the specified user.
      */
-    List<Trail> findByUser(User userId);
+    List<Trail> findByUser(User user);
 
     @NonNull
     List<Trail> findAll();
