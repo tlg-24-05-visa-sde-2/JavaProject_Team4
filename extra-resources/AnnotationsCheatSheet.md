@@ -99,13 +99,14 @@ public class UserService {
       **`Example: `**
 
 ```java
-import org.springframework.stereotype.Service;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-@Service
-public class UserService {
-    public User getUserById(Long id) {
-        // logic to get a user by id
-    }
+@Entity
+public class User {
+  @Id
+  private Long id;
+  private String name;
 }
 ```
 
@@ -115,14 +116,17 @@ public class UserService {
   
     **`Example: `**
 ```java
-import org.springframework.stereotype.Service;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
-@Service
-public class UserService {
-    public User getUserById(Long id) {
-        // logic to get a user by id
-    }
+@Entity
+@Table(name = "users")
+public class User {
+  @Id
+  private Long id;
+  private String name;
 }
+
 ```
 - **`Example: Combining Annotations for a Database Model: `**
 ```java
